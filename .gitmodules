@@ -1,3 +1,6 @@
 [submodule "app"]
 	path = app
 	url = https://github.com/KrishnarajT/Attendance-Assistant-App
+[submodule "backend"]
+	path = backend
+	url = https://github.com/KrishnarajT/Attendance-Assistant-Backend

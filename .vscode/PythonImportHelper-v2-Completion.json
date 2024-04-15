@@ -1,0 +1,1285 @@
+[
+    {
+        "label": "firebase_admin",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "credentials",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "storage",
+        "importPath": "firebase_admin",
+        "description": "firebase_admin",
+        "isExtraImport": true,
+        "detail": "firebase_admin",
+        "documentation": {}
+    },
+    {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "mongodb_uri",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "AssistanceFirebase",
+        "importPath": "services.assistanceFirebase",
+        "description": "services.assistanceFirebase",
+        "isExtraImport": true,
+        "detail": "services.assistanceFirebase",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "firebaseStorage",
+        "importPath": "data",
+        "description": "data",
+        "isExtraImport": true,
+        "detail": "data",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "connect_to_mongo",
+        "importPath": "mongodb",
+        "description": "mongodb",
+        "isExtraImport": true,
+        "detail": "mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "client_uploads",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "test_route",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "face_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "face_recognition",
+        "description": "face_recognition",
+        "detail": "face_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "FaceRec",
+        "importPath": "FaceRec",
+        "description": "FaceRec",
+        "isExtraImport": true,
+        "detail": "FaceRec",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "cred",
+        "kind": 5,
+        "importPath": "backend.app.data.firebaseStorage",
+        "description": "backend.app.data.firebaseStorage",
+        "peekOfCode": "cred = credentials.Certificate(\"attendance-assistant-3b3a3-firebase-adminsdk-vkifz-64ed71fe03.json\")\nfirebase_admin.initialize_app(cred)\nfb_storage = storage.bucket(\"attendance-assistant-3b3a3.appspot.com\")",
+        "detail": "backend.app.data.firebaseStorage",
+        "documentation": {}
+    },
+    {
+        "label": "fb_storage",
+        "kind": 5,
+        "importPath": "backend.app.data.firebaseStorage",
+        "description": "backend.app.data.firebaseStorage",
+        "peekOfCode": "fb_storage = storage.bucket(\"attendance-assistant-3b3a3.appspot.com\")",
+        "detail": "backend.app.data.firebaseStorage",
+        "documentation": {}
+    },
+    {
+        "label": "connect_to_mongo",
+        "kind": 2,
+        "importPath": "backend.app.data.mongodb",
+        "description": "backend.app.data.mongodb",
+        "peekOfCode": "def connect_to_mongo():\n    client = MongoClient(mongodb_uri)\n    db = client.get_default_database()\n    return db",
+        "detail": "backend.app.data.mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModel",
+        "kind": 6,
+        "importPath": "backend.app.routers.client_uploads",
+        "description": "backend.app.routers.client_uploads",
+        "peekOfCode": "class ImageModel(BaseModel):\n\timage_url: str\nclass Attendance(BaseModel):\n\troom_id: str\n\tsubject_id: str\n\tteacher_id: str\n\tpanel_id: str\n\tstart_time: datetime\n\tend_time: datetime\n\t@field_validator(\"start_time\")",
+        "detail": "backend.app.routers.client_uploads",
+        "documentation": {}
+    },
+    {
+        "label": "Attendance",
+        "kind": 6,
+        "importPath": "backend.app.routers.client_uploads",
+        "description": "backend.app.routers.client_uploads",
+        "peekOfCode": "class Attendance(BaseModel):\n\troom_id: str\n\tsubject_id: str\n\tteacher_id: str\n\tpanel_id: str\n\tstart_time: datetime\n\tend_time: datetime\n\t@field_validator(\"start_time\")\n\tdef validate_date(self, cls, v):\n@router.post(\"/add_image\")",
+        "detail": "backend.app.routers.client_uploads",
+        "documentation": {}
+    },
+    {
+        "label": "fb_storage",
+        "kind": 5,
+        "importPath": "backend.app.routers.client_uploads",
+        "description": "backend.app.routers.client_uploads",
+        "peekOfCode": "fb_storage = AssistanceFirebase()\nrouter = APIRouter(\n\tprefix=\"/upload\",\n\ttags=[\"Upload Images or Attendance Info from App/Website/Pi\"]\n)\nclass ImageModel(BaseModel):\n\timage_url: str\nclass Attendance(BaseModel):\n\troom_id: str\n\tsubject_id: str",
+        "detail": "backend.app.routers.client_uploads",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.client_uploads",
+        "description": "backend.app.routers.client_uploads",
+        "peekOfCode": "router = APIRouter(\n\tprefix=\"/upload\",\n\ttags=[\"Upload Images or Attendance Info from App/Website/Pi\"]\n)\nclass ImageModel(BaseModel):\n\timage_url: str\nclass Attendance(BaseModel):\n\troom_id: str\n\tsubject_id: str\n\tteacher_id: str",
+        "detail": "backend.app.routers.client_uploads",
+        "documentation": {}
+    },
+    {
+        "label": "\timage_data",
+        "kind": 5,
+        "importPath": "backend.app.routers.client_uploads",
+        "description": "backend.app.routers.client_uploads",
+        "peekOfCode": "\timage_data = await image.read()\n\timage_url = fb_storage.upload_image(image_data)\n\treturn {\"image_url\": image_url}\nasync def add_attendance()",
+        "detail": "backend.app.routers.client_uploads",
+        "documentation": {}
+    },
+    {
+        "label": "\timage_url",
+        "kind": 5,
+        "importPath": "backend.app.routers.client_uploads",
+        "description": "backend.app.routers.client_uploads",
+        "peekOfCode": "\timage_url = fb_storage.upload_image(image_data)\n\treturn {\"image_url\": image_url}\nasync def add_attendance()",
+        "detail": "backend.app.routers.client_uploads",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "backend.app.routers.test_route",
+        "description": "backend.app.routers.test_route",
+        "peekOfCode": "def index():\n\treturn Response(status_code=200, content=\"Hello, World!\")",
+        "detail": "backend.app.routers.test_route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.test_route",
+        "description": "backend.app.routers.test_route",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/test\", status_code=status.HTTP_200_OK, tags=[\"test\"], summary=\"Test route\")\ndef index():\n\treturn Response(status_code=200, content=\"Hello, World!\")",
+        "detail": "backend.app.routers.test_route",
+        "documentation": {}
+    },
+    {
+        "label": "AssistanceFirebase",
+        "kind": 6,
+        "importPath": "backend.app.services.assistanceFirebase",
+        "description": "backend.app.services.assistanceFirebase",
+        "peekOfCode": "class AssistanceFirebase:\n    def __init__(self):\n        self.storage = firebaseStorage.fb_storage\n    def upload_image(self, image):\n        bucket = self.storage\n        unique_name = str(uuid.uuid4())\n        blob = bucket.blob(unique_name + \".jpg\")\n        image_stream = BytesIO(image)\n        blob.upload_from_file(image_stream)\n        blob.make_public()",
+        "detail": "backend.app.services.assistanceFirebase",
+        "documentation": {}
+    },
+    {
+        "label": "AssistanceService",
+        "kind": 6,
+        "importPath": "backend.app.services.assistanceMongoDB",
+        "description": "backend.app.services.assistanceMongoDB",
+        "peekOfCode": "class AssistanceService:\n    def __init__(self):\n        self.db = connect_to_mongo()",
+        "detail": "backend.app.services.assistanceMongoDB",
+        "documentation": {}
+    },
+    {
+        "label": "mongodb_uri",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "mongodb_uri = os.getenv(\"MONGODB_URI\")\napiKey = os.getenv(\"apiKey\")\nauthDomain = os.getenv(\"authDomain\") \nprojectId = os.getenv(\"projectId\")\nstorageBucket = os.getenv(\"storageBucket\")\nmessagingSenderId = os.getenv(\"messagingSenderId\") \nappId = os.getenv(\"appId\")\nmeasurementId = os.getenv(\"measurementId\")\nport = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "apiKey",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "apiKey = os.getenv(\"apiKey\")\nauthDomain = os.getenv(\"authDomain\") \nprojectId = os.getenv(\"projectId\")\nstorageBucket = os.getenv(\"storageBucket\")\nmessagingSenderId = os.getenv(\"messagingSenderId\") \nappId = os.getenv(\"appId\")\nmeasurementId = os.getenv(\"measurementId\")\nport = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "authDomain",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "authDomain = os.getenv(\"authDomain\") \nprojectId = os.getenv(\"projectId\")\nstorageBucket = os.getenv(\"storageBucket\")\nmessagingSenderId = os.getenv(\"messagingSenderId\") \nappId = os.getenv(\"appId\")\nmeasurementId = os.getenv(\"measurementId\")\nport = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "projectId",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "projectId = os.getenv(\"projectId\")\nstorageBucket = os.getenv(\"storageBucket\")\nmessagingSenderId = os.getenv(\"messagingSenderId\") \nappId = os.getenv(\"appId\")\nmeasurementId = os.getenv(\"measurementId\")\nport = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "storageBucket",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "storageBucket = os.getenv(\"storageBucket\")\nmessagingSenderId = os.getenv(\"messagingSenderId\") \nappId = os.getenv(\"appId\")\nmeasurementId = os.getenv(\"measurementId\")\nport = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "messagingSenderId",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "messagingSenderId = os.getenv(\"messagingSenderId\") \nappId = os.getenv(\"appId\")\nmeasurementId = os.getenv(\"measurementId\")\nport = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "appId",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "appId = os.getenv(\"appId\")\nmeasurementId = os.getenv(\"measurementId\")\nport = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "measurementId",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "measurementId = os.getenv(\"measurementId\")\nport = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "port",
+        "kind": 5,
+        "importPath": "backend.app.config",
+        "description": "backend.app.config",
+        "peekOfCode": "port = os.getenv(\"PORT\")",
+        "detail": "backend.app.config",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = FastAPI()\n# Include routers here\nfrom routers import client_uploads, test_route\napp.include_router(client_uploads.router)\napp.include_router(test_route.router)",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.activate_this",
+        "description": "backend.AttenEnv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "backend.AttenEnv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "firestore_adminCallTransformer",
+        "kind": 6,
+        "importPath": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "class firestore_adminCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'create_database': ('parent', 'database', 'database_id', ),\n        'create_index': ('parent', 'index', ),\n        'delete_database': ('name', 'etag', ),\n        'delete_index': ('name', ),\n        'export_documents': ('name', 'collection_ids', 'output_uri_prefix', 'namespace_ids', 'snapshot_time', ),\n        'get_database': ('name', ),\n        'get_field': ('name', ),",
+        "detail": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestore_adminCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "backend.AttenEnv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "firestoreCallTransformer",
+        "kind": 6,
+        "importPath": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "description": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "class firestoreCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'batch_get_documents': ('database', 'documents', 'mask', 'transaction', 'new_transaction', 'read_time', ),\n        'batch_write': ('database', 'writes', 'labels', ),\n        'begin_transaction': ('database', 'options', ),\n        'commit': ('database', 'writes', 'transaction', ),\n        'create_document': ('parent', 'collection_id', 'document', 'document_id', 'mask', ),\n        'delete_document': ('name', 'current_document', ),\n        'get_document': ('name', 'mask', 'transaction', 'read_time', ),",
+        "detail": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "description": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "description": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestoreCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "backend.AttenEnv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass\n        tee_f.write(what)",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info[0],\n        sys.version_info[1],\n        suffix,",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(\"-> %s\\\\%s[%s]=%r\" % (root_key_name, key_name, value_name, value))\n        finally:",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(\"-> DELETE %s\\\\%s[%s]\" % (root_key_name, key_name, value_name))\n        finally:",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n        like file_created to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(\"Failed to unregister COM objects: %s\" % (why,))\n    try:",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location):\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError('Path \"{}\" does not exist!'.format(location))\n    return location\ndef main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    import argparse\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python pywin32_postinstall.py -install\n    If you installed pywin32 via a .exe installer, this should be run\n    automatically after installation, but if it fails you can run it again.\n    If you installed pywin32 via PIP, you almost certainly need to run this to",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(os.path.join(tempfile.gettempdir(), \"pywin32_postinstall.log\"), \"w\")\nclass Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except IOError:\n                pass",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "description": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ntry:\n    # When this script is run from inside the bdist_wininst installer,\n    # file_created() and directory_created() are additional builtin\n    # functions which write lines to Python23\\pywin32-install.log. This is\n    # a list of actions for the uninstaller, the format is inspired by what\n    # the Wise installer also creates.\n    file_created\n    is_bdist_wininst = True\nexcept NameError:",
+        "detail": "backend.AttenEnv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_testall",
+        "description": "backend.AttenEnv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(\"*** Test script '%s' exited with %s\" % (script, result.returncode))\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": "backend.AttenEnv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_testall",
+        "description": "backend.AttenEnv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": "backend.AttenEnv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_testall",
+        "description": "backend.AttenEnv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [this_dir] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": "backend.AttenEnv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "this_dir",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_testall",
+        "description": "backend.AttenEnv.Scripts.pywin32_testall",
+        "peekOfCode": "this_dir = os.path.dirname(__file__)\nsite_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)",
+        "detail": "backend.AttenEnv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_testall",
+        "description": "backend.AttenEnv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [\n    site.getusersitepackages(),\n] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.",
+        "detail": "backend.AttenEnv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": "backend.AttenEnv.Scripts.pywin32_testall",
+        "description": "backend.AttenEnv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": "backend.AttenEnv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "FaceRec",
+        "kind": 6,
+        "importPath": "backend.face_rec.FaceRec",
+        "description": "backend.face_rec.FaceRec",
+        "peekOfCode": "class FaceRec:\n\t\"\"\"\n\t\tContains methods for facial recognition\n\t\"\"\"\n\tdef __init__(self, test_image_uri, ):\n\t\t\"\"\"\n\t\t\tConstructor\n\t\t\"\"\"\n\t\tself.test_image_uri = test_image_uri\n\tdef cleanup(self):",
+        "detail": "backend.face_rec.FaceRec",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.test_image_uri",
+        "kind": 5,
+        "importPath": "backend.face_rec.FaceRec",
+        "description": "backend.face_rec.FaceRec",
+        "peekOfCode": "\t\tself.test_image_uri = test_image_uri\n\tdef cleanup(self):\n\t\t\"\"\"\n\t\t\tCleanup all data from memory.\n\t\t\"\"\"\n\t\tpass\n\tdef create_encodings_for_test_img(self):\n\t\t\"\"\"\n\t\t\tcreate encodings for all images in the Image that we have to test for faces.\n\t\t\"\"\"",
+        "detail": "backend.face_rec.FaceRec",
+        "documentation": {}
+    },
+    {
+        "label": "user_io",
+        "kind": 2,
+        "importPath": "backend.face_rec.run_facial_recognition",
+        "description": "backend.face_rec.run_facial_recognition",
+        "peekOfCode": "def user_io():\n\t\"\"\"\n\tManages user input and output.\n\t\"\"\"\n\twhile True:\n\t\tuser_input = input(\n\t\t\t\"Enter \\n'1' to Play / Pause, \\n'2' to start a blank file, \\n'3' to export raw data to CSV, JSON, HTML\\n'4' Export Nicely to CSV, JSON, HTML \\n'5' to Enable/Disable Idle Detection\\n'6' to Exit: \\n\\n\\n\"\n\t\t)\n\t\ttry:\n\t\t\tif user_input == \"0\":",
+        "detail": "backend.face_rec.run_facial_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tuser_input",
+        "kind": 5,
+        "importPath": "backend.face_rec.run_facial_recognition",
+        "description": "backend.face_rec.run_facial_recognition",
+        "peekOfCode": "\t\tuser_input = input(\n\t\t\t\"Enter \\n'1' to Play / Pause, \\n'2' to start a blank file, \\n'3' to export raw data to CSV, JSON, HTML\\n'4' Export Nicely to CSV, JSON, HTML \\n'5' to Enable/Disable Idle Detection\\n'6' to Exit: \\n\\n\\n\"\n\t\t)\n\t\ttry:\n\t\t\tif user_input == \"0\":\n\t\t\t\tapp.print_db()\n\t\t\telif user_input == \"1\":\n\t\t\t\tapp.pause_or_resume()\n\t\t\t\tif app.get_record() == True:\n\t\t\t\t\tprint(\"Recording ...\")",
+        "detail": "backend.face_rec.run_facial_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\t\tapp.finish",
+        "kind": 5,
+        "importPath": "backend.face_rec.run_facial_recognition",
+        "description": "backend.face_rec.run_facial_recognition",
+        "peekOfCode": "\t\t\t\tapp.finish = True\n\t\t\t\tbreak\n\t\t\telse:\n\t\t\t\tprint(\"Invalid input. Please try again.\")\n\t\texcept Exception as e:\n\t\t\tprint(e)\n\t\t\tprint(e.with_traceback())\n\tapp.cleanup()\nif __name__ == \"__main__\":\n\t# initialize colorama",
+        "detail": "backend.face_rec.run_facial_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "\tface_rec",
+        "kind": 5,
+        "importPath": "backend.face_rec.run_facial_recognition",
+        "description": "backend.face_rec.run_facial_recognition",
+        "peekOfCode": "\tface_rec = FaceRec()\n\t# make a simple menu for the user\n\tprint(\"Welcome to the facial recognition program (Local Edition)\")\n\tprint(Fore.BLUE\n\t      + Style.BRIGHT\n\t      + \"\"\"\n\t\t\t __    __     _                            _           __                    __           \n\t\t\t/ / /\\ \\ \\___| | ___ ___  _ __ ___   ___  | |_ ___    / _| __ _  ___ ___    /__\\ ___  ___ \n\t\t\t\\ \\/  \\/ / _ \\ |/ __/ _ \\| '_ ` _ \\ / _ \\ | __/ _ \\  | |_ / _` |/ __/ _ \\  / \\/// _ \\/ __|\n\t\t\t \\  /\\  /  __/ | (_| (_) | | | | | |  __/ | || (_) | |  _| (_| | (_|  __/ / _  \\  __/ (__ ",
+        "detail": "backend.face_rec.run_facial_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "current_file_directory",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "current_file_directory = os.path.dirname(os.path.abspath(__file__))\n# Get the parent directory\nparent_directory = os.path.dirname(current_file_directory)\n# Get the directory of images\nimages_directory = os.path.join(parent_directory, \"images\")\n# get the testing images directory\ntesting_images_directory = os.path.join(images_directory, \"test\")\nimage_files = []\n# cycle through the known_faces directory and load each image\nfor filename in os.listdir(os.path.join(images_directory, \"known_faces\")):",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "parent_directory",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "parent_directory = os.path.dirname(current_file_directory)\n# Get the directory of images\nimages_directory = os.path.join(parent_directory, \"images\")\n# get the testing images directory\ntesting_images_directory = os.path.join(images_directory, \"test\")\nimage_files = []\n# cycle through the known_faces directory and load each image\nfor filename in os.listdir(os.path.join(images_directory, \"known_faces\")):\n\timage_files.append(filename)\nknown_face_encodings = []",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "images_directory",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "images_directory = os.path.join(parent_directory, \"images\")\n# get the testing images directory\ntesting_images_directory = os.path.join(images_directory, \"test\")\nimage_files = []\n# cycle through the known_faces directory and load each image\nfor filename in os.listdir(os.path.join(images_directory, \"known_faces\")):\n\timage_files.append(filename)\nknown_face_encodings = []\n# Load the known images (create face encodings) for all image_files\nfor filename in image_files:",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "testing_images_directory",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "testing_images_directory = os.path.join(images_directory, \"test\")\nimage_files = []\n# cycle through the known_faces directory and load each image\nfor filename in os.listdir(os.path.join(images_directory, \"known_faces\")):\n\timage_files.append(filename)\nknown_face_encodings = []\n# Load the known images (create face encodings) for all image_files\nfor filename in image_files:\n\timage = face_recognition.load_image_file(os.path.join(images_directory, \"known_faces\", filename))\n\tknown_face_encodings.append(face_recognition.face_encodings(image)[0])",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "image_files",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "image_files = []\n# cycle through the known_faces directory and load each image\nfor filename in os.listdir(os.path.join(images_directory, \"known_faces\")):\n\timage_files.append(filename)\nknown_face_encodings = []\n# Load the known images (create face encodings) for all image_files\nfor filename in image_files:\n\timage = face_recognition.load_image_file(os.path.join(images_directory, \"known_faces\", filename))\n\tknown_face_encodings.append(face_recognition.face_encodings(image)[0])\n# Load all images in the test directory",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "known_face_encodings",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "known_face_encodings = []\n# Load the known images (create face encodings) for all image_files\nfor filename in image_files:\n\timage = face_recognition.load_image_file(os.path.join(images_directory, \"known_faces\", filename))\n\tknown_face_encodings.append(face_recognition.face_encodings(image)[0])\n# Load all images in the test directory\ntest_image_files = []\nfor filename in os.listdir(testing_images_directory):\n\ttest_image_files.append(filename)\nunknown_face_encodings = {}",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "\timage",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "\timage = face_recognition.load_image_file(os.path.join(images_directory, \"known_faces\", filename))\n\tknown_face_encodings.append(face_recognition.face_encodings(image)[0])\n# Load all images in the test directory\ntest_image_files = []\nfor filename in os.listdir(testing_images_directory):\n\ttest_image_files.append(filename)\nunknown_face_encodings = {}\n# create face encodings for all test images\nfor filename in test_image_files:\n\timage = face_recognition.load_image_file(os.path.join(testing_images_directory, filename))",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "test_image_files",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "test_image_files = []\nfor filename in os.listdir(testing_images_directory):\n\ttest_image_files.append(filename)\nunknown_face_encodings = {}\n# create face encodings for all test images\nfor filename in test_image_files:\n\timage = face_recognition.load_image_file(os.path.join(testing_images_directory, filename))\n\tunknown_face_encodings[filename] = face_recognition.face_encodings(image)\nimport face_recognition\n# Load the known images (create face encodings)",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "unknown_face_encodings",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "unknown_face_encodings = {}\n# create face encodings for all test images\nfor filename in test_image_files:\n\timage = face_recognition.load_image_file(os.path.join(testing_images_directory, filename))\n\tunknown_face_encodings[filename] = face_recognition.face_encodings(image)\nimport face_recognition\n# Load the known images (create face encodings)\nimage_of_person_1 = face_recognition.load_image_file(\"person_1.jpg\")\nperson_1_face_encoding = face_recognition.face_encodings(image_of_person_1)[0]\nimage_of_person_2 = face_recognition.load_image_file(\"person_2.jpg\")",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "\timage",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "\timage = face_recognition.load_image_file(os.path.join(testing_images_directory, filename))\n\tunknown_face_encodings[filename] = face_recognition.face_encodings(image)\nimport face_recognition\n# Load the known images (create face encodings)\nimage_of_person_1 = face_recognition.load_image_file(\"person_1.jpg\")\nperson_1_face_encoding = face_recognition.face_encodings(image_of_person_1)[0]\nimage_of_person_2 = face_recognition.load_image_file(\"person_2.jpg\")\nperson_2_face_encoding = face_recognition.face_encodings(image_of_person_2)[0]\n# Create list of known face encodings\nknown_face_encodings = [",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "\tunknown_face_encodings[filename]",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "\tunknown_face_encodings[filename] = face_recognition.face_encodings(image)\nimport face_recognition\n# Load the known images (create face encodings)\nimage_of_person_1 = face_recognition.load_image_file(\"person_1.jpg\")\nperson_1_face_encoding = face_recognition.face_encodings(image_of_person_1)[0]\nimage_of_person_2 = face_recognition.load_image_file(\"person_2.jpg\")\nperson_2_face_encoding = face_recognition.face_encodings(image_of_person_2)[0]\n# Create list of known face encodings\nknown_face_encodings = [\n    person_1_face_encoding,",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "image_of_person_1",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "image_of_person_1 = face_recognition.load_image_file(\"person_1.jpg\")\nperson_1_face_encoding = face_recognition.face_encodings(image_of_person_1)[0]\nimage_of_person_2 = face_recognition.load_image_file(\"person_2.jpg\")\nperson_2_face_encoding = face_recognition.face_encodings(image_of_person_2)[0]\n# Create list of known face encodings\nknown_face_encodings = [\n    person_1_face_encoding,\n    person_2_face_encoding\n]\n# Load the image we want to check",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "person_1_face_encoding",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "person_1_face_encoding = face_recognition.face_encodings(image_of_person_1)[0]\nimage_of_person_2 = face_recognition.load_image_file(\"person_2.jpg\")\nperson_2_face_encoding = face_recognition.face_encodings(image_of_person_2)[0]\n# Create list of known face encodings\nknown_face_encodings = [\n    person_1_face_encoding,\n    person_2_face_encoding\n]\n# Load the image we want to check\nunknown_image = face_recognition.load_image_file(\"unknown.jpg\")",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "image_of_person_2",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "image_of_person_2 = face_recognition.load_image_file(\"person_2.jpg\")\nperson_2_face_encoding = face_recognition.face_encodings(image_of_person_2)[0]\n# Create list of known face encodings\nknown_face_encodings = [\n    person_1_face_encoding,\n    person_2_face_encoding\n]\n# Load the image we want to check\nunknown_image = face_recognition.load_image_file(\"unknown.jpg\")\nunknown_face_encodings = face_recognition.face_encodings(unknown_image)",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "person_2_face_encoding",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "person_2_face_encoding = face_recognition.face_encodings(image_of_person_2)[0]\n# Create list of known face encodings\nknown_face_encodings = [\n    person_1_face_encoding,\n    person_2_face_encoding\n]\n# Load the image we want to check\nunknown_image = face_recognition.load_image_file(\"unknown.jpg\")\nunknown_face_encodings = face_recognition.face_encodings(unknown_image)\n# There might be more than one person in the photo, so we need to check each face encoding",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "known_face_encodings",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "known_face_encodings = [\n    person_1_face_encoding,\n    person_2_face_encoding\n]\n# Load the image we want to check\nunknown_image = face_recognition.load_image_file(\"unknown.jpg\")\nunknown_face_encodings = face_recognition.face_encodings(unknown_image)\n# There might be more than one person in the photo, so we need to check each face encoding\nfor unknown_face_encoding in unknown_face_encodings:\n    # Test if this unknown face encoding matches any of the known face encodings",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "unknown_image",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "unknown_image = face_recognition.load_image_file(\"unknown.jpg\")\nunknown_face_encodings = face_recognition.face_encodings(unknown_image)\n# There might be more than one person in the photo, so we need to check each face encoding\nfor unknown_face_encoding in unknown_face_encodings:\n    # Test if this unknown face encoding matches any of the known face encodings\n    results = face_recognition.compare_faces(known_face_encodings, unknown_face_encoding)\n    name = \"Unknown\"\n    if results[0]:\n        name = \"Person 1\"\n    elif results[1]:",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "unknown_face_encodings",
+        "kind": 5,
+        "importPath": "backend.face_rec.test",
+        "description": "backend.face_rec.test",
+        "peekOfCode": "unknown_face_encodings = face_recognition.face_encodings(unknown_image)\n# There might be more than one person in the photo, so we need to check each face encoding\nfor unknown_face_encoding in unknown_face_encodings:\n    # Test if this unknown face encoding matches any of the known face encodings\n    results = face_recognition.compare_faces(known_face_encodings, unknown_face_encoding)\n    name = \"Unknown\"\n    if results[0]:\n        name = \"Person 1\"\n    elif results[1]:\n        name = \"Person 2\"",
+        "detail": "backend.face_rec.test",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def index():\n\treturn {\"message\": \"Hello World\"}\n@app.post(\"/hello\")\ndef index():\n\treturn {\"message\": \"Hello World\"}",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def index():\n\treturn {\"message\": \"Hello World\"}",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI()\n# app.include_router(image_routes.router)\n# app.include_router(article_routes.router)\n# app.include_router(product_routes.router)\napp.add_middleware(\n\tCORSMiddleware,\n\tallow_origins=[\"http://localhost:3000\"],\n\tallow_credentials=True,\n\tallow_methods=[\"*\"],\n\tallow_headers=[\"*\"],",
+        "detail": "backend.main",
+        "documentation": {}
+    }
+]

@@ -7,5 +7,5 @@
 \beamer@sectionintoc {7}{Backend Work Done}{18}{0}{7}
 \beamer@sectionintoc {8}{Face Recognition Libraries Used}{34}{0}{8}
 \beamer@sectionintoc {9}{Training Data}{36}{0}{9}
-\beamer@sectionintoc {10}{Preliminary Results}{37}{0}{10}
-\beamer@sectionintoc {11}{Backend Work Remaining}{38}{0}{11}
+\beamer@sectionintoc {10}{Preliminary Results}{41}{0}{10}
+\beamer@sectionintoc {11}{Backend Work Remaining}{42}{0}{11}

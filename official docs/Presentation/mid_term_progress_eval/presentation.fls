@@ -284,6 +284,8 @@ INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beameri
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamericononline.20.pdf
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamerouterthemedefault.sty
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\tools\multicol.sty
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\beamer\beamercolorthemebeaver.sty
@@ -338,6 +340,7 @@ INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\presentation.toc
 INPUT .\presentation.toc
 INPUT presentation.toc
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
@@ -367,13 +370,187 @@ INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\sansmathaccent
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi10.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT .\react native 2.png
+INPUT .\react native 2.png
+INPUT .\react native 2.png
+INPUT .\react native 2.png
+INPUT .\react native 2.png
+INPUT .\react native 2.png
+INPUT .\react native 2.png
+INPUT ..\..\Diagrams\first 4.jpg
+INPUT ..\..\Diagrams\first 4.jpg
+INPUT ..\..\Diagrams\first 4.jpg
+INPUT ..\..\Diagrams\first 4.jpg
+INPUT ..\..\Diagrams\first 4.jpg
+INPUT ..\..\Diagrams\first 4.jpg
+INPUT ..\..\Diagrams\first 4.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj eval.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj eval.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj eval.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj eval.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj eval.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj eval.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj eval.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj 2.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj 2.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj 2.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj 2.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj 2.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj 2.jpg
+INPUT ..\..\Frontend Status\Mid Term\frontend app status for mini proj 2.jpg
+INPUT .\fastapi.jpg
+INPUT .\fastapi.jpg
+INPUT .\fastapi.jpg
+INPUT .\fastapi.jpg
+INPUT .\fastapi.jpg
+INPUT .\fastapi.jpg
+INPUT .\fastapi.jpg
+INPUT .\mongo.jpg
+INPUT .\mongo.jpg
+INPUT .\mongo.jpg
+INPUT .\mongo.jpg
+INPUT .\mongo.jpg
+INPUT .\mongo.jpg
+INPUT .\mongo.jpg
+INPUT .\swagger 1.jpg
+INPUT .\swagger 1.jpg
+INPUT .\swagger 1.jpg
+INPUT .\swagger 1.jpg
+INPUT .\swagger 1.jpg
+INPUT .\swagger 1.jpg
+INPUT .\swagger 1.jpg
+INPUT .\Clipboard Image.jpg
+INPUT .\Clipboard Image.jpg
+INPUT .\Clipboard Image.jpg
+INPUT .\Clipboard Image.jpg
+INPUT .\Clipboard Image.jpg
+INPUT .\Clipboard Image.jpg
+INPUT .\Clipboard Image.jpg
+INPUT .\swagger 2.jpg
+INPUT .\swagger 2.jpg
+INPUT .\swagger 2.jpg
+INPUT .\swagger 2.jpg
+INPUT .\swagger 2.jpg
+INPUT .\swagger 2.jpg
+INPUT .\swagger 2.jpg
+INPUT .\student.jpg
+INPUT .\student.jpg
+INPUT .\student.jpg
+INPUT .\student.jpg
+INPUT .\student.jpg
+INPUT .\student.jpg
+INPUT .\student.jpg
+INPUT .\swagger 3.jpg
+INPUT .\swagger 3.jpg
+INPUT .\swagger 3.jpg
+INPUT .\swagger 3.jpg
+INPUT .\swagger 3.jpg
+INPUT .\swagger 3.jpg
+INPUT .\swagger 3.jpg
+INPUT .\swagger 4.jpg
+INPUT .\swagger 4.jpg
+INPUT .\swagger 4.jpg
+INPUT .\swagger 4.jpg
+INPUT .\swagger 4.jpg
+INPUT .\swagger 4.jpg
+INPUT .\swagger 4.jpg
+INPUT .\panel.jpg
+INPUT .\panel.jpg
+INPUT .\panel.jpg
+INPUT .\panel.jpg
+INPUT .\panel.jpg
+INPUT .\panel.jpg
+INPUT .\panel.jpg
+INPUT .\swagger 5.jpg
+INPUT .\swagger 5.jpg
+INPUT .\swagger 5.jpg
+INPUT .\swagger 5.jpg
+INPUT .\swagger 5.jpg
+INPUT .\swagger 5.jpg
+INPUT .\swagger 5.jpg
+INPUT .\college.jpg
+INPUT .\college.jpg
+INPUT .\college.jpg
+INPUT .\college.jpg
+INPUT .\college.jpg
+INPUT .\college.jpg
+INPUT .\college.jpg
+INPUT .\swagger 6.jpg
+INPUT .\swagger 6.jpg
+INPUT .\swagger 6.jpg
+INPUT .\swagger 6.jpg
+INPUT .\swagger 6.jpg
+INPUT .\swagger 6.jpg
+INPUT .\swagger 6.jpg
+INPUT .\semester.jpg
+INPUT .\semester.jpg
+INPUT .\semester.jpg
+INPUT .\semester.jpg
+INPUT .\semester.jpg
+INPUT .\semester.jpg
+INPUT .\semester.jpg
+INPUT .\swagger 7.jpg
+INPUT .\swagger 7.jpg
+INPUT .\swagger 7.jpg
+INPUT .\swagger 7.jpg
+INPUT .\swagger 7.jpg
+INPUT .\swagger 7.jpg
+INPUT .\swagger 7.jpg
+INPUT .\teacher.jpg
+INPUT .\teacher.jpg
+INPUT .\teacher.jpg
+INPUT .\teacher.jpg
+INPUT .\teacher.jpg
+INPUT .\teacher.jpg
+INPUT .\teacher.jpg
+INPUT .\swagger 8.jpg
+INPUT .\swagger 8.jpg
+INPUT .\swagger 8.jpg
+INPUT .\swagger 8.jpg
+INPUT .\swagger 8.jpg
+INPUT .\swagger 8.jpg
+INPUT .\swagger 8.jpg
+INPUT .\lecture.jpg
+INPUT .\lecture.jpg
+INPUT .\lecture.jpg
+INPUT .\lecture.jpg
+INPUT .\lecture.jpg
+INPUT .\lecture.jpg
+INPUT .\lecture.jpg
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss9.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi9.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi8.tfm
 OUTPUT presentation.nav
 OUTPUT presentation.toc
 OUTPUT presentation.snm
 INPUT presentation.aux
 INPUT .\presentation.out
 INPUT .\presentation.out
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb

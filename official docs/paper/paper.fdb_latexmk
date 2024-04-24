@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713928301.2056 "p:/Programs/JavaScript/Attendence-Assistant/official docs/paper/Paper.tex" "Paper.pdf" "Paper" 1713928301.65865 0
+["pdflatex"] 1713928992.95619 "p:/Programs/JavaScript/Attendence-Assistant/official docs/paper/Paper.tex" "Paper.pdf" "Paper" 1713928993.4321 0
   "C:/Users/Krishnaraj/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1713924434 84640 d2180ac32b717e50a6613cde741b87c4 ""
   "C:/Users/Krishnaraj/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1713198875 24238366 9dceeefe1f32bc9b442ba39b87a98e15 ""
   "C:/Users/Krishnaraj/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -75,15 +75,15 @@
   "C:/Users/Krishnaraj/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/Krishnaraj/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Krishnaraj/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Paper.aux" 1713928301 9070 201d8f6ffadbd06e310d64a1cb4bd2b5 "pdflatex"
-  "Paper.tex" 1713928300 33887 a0c68fffb0fad6a03abae69725e90219 ""
+  "Paper.aux" 1713928993 8963 c21d1bd3cbc6614d15b5d67cf65fc6c5 "pdflatex"
+  "Paper.tex" 1713928992 32932 8af778cca2ca32ecd2977d118a35db65 ""
   "app 1.jpg" 1713928099 20329 89a3d55b80681a759194057471270fcc ""
   "app 2.jpg" 1713928103 26356 01248d2afaf32e60e9d280fbfe3ad9f7 ""
   "avishkar.jpg" 1713813280 32079 f0b403efea702e765571ceaa2ea47374 ""
   "face rec results cropped.jpg" 1713812866 253286 561f54425e826e19a01ed33e555a982f ""
   "karad.jpg" 1713927764 65148 99de8b0258f2fca136e76c64734fd4ad ""
   "krish.jpg" 1713927736 21310 6eae58509683354149d292e50f24764d ""
-  "p:/Programs/JavaScript/Attendence-Assistant/official docs/paper/Paper.tex" 1713928300 33887 a0c68fffb0fad6a03abae69725e90219 ""
+  "p:/Programs/JavaScript/Attendence-Assistant/official docs/paper/Paper.tex" 1713928992 32932 8af778cca2ca32ecd2977d118a35db65 ""
   "parth.jpg" 1713927791 126347 ab8bb6a3a1558795e7295754fb61429f ""
   "saubhagya.jpg" 1713927820 86320 215887d67f6f666a0d10ae940f09bef1 ""
   (generated)

@@ -167,8 +167,6 @@ INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
@@ -224,22 +222,24 @@ INPUT .\face rec results cropped.jpg
 INPUT .\face rec results cropped.jpg
 INPUT .\face rec results cropped.jpg
 INPUT .\face rec results cropped.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 2.jpg
-INPUT .\app 2.jpg
-INPUT .\app 2.jpg
-INPUT .\app 2.jpg
-INPUT .\app 2.jpg
-INPUT .\app 2.jpg
-INPUT .\app 2.jpg
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
+INPUT .\app 1.jpg
+INPUT .\app 1.jpg
+INPUT .\app 1.jpg
+INPUT .\app 1.jpg
+INPUT .\app 1.jpg
+INPUT .\app 1.jpg
+INPUT .\app 1.jpg
+INPUT .\app 2.jpg
+INPUT .\app 2.jpg
+INPUT .\app 2.jpg
+INPUT .\app 2.jpg
+INPUT .\app 2.jpg
+INPUT .\app 2.jpg
+INPUT .\app 2.jpg
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm

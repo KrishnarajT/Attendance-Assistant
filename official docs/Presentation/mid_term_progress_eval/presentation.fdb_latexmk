@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713813608.02687 "p:/Programs/JavaScript/Attendence-Assistant/official docs/Presentation/mid_term_progress_eval/presentation.tex" "presentation.pdf" "presentation" 1713813609.55431 0
+["pdflatex"] 1713922808.18653 "p:/Programs/JavaScript/Attendence-Assistant/official docs/Presentation/mid_term_progress_eval/presentation.tex" "presentation.pdf" "presentation" 1713922809.71542 0
   "../../Diagrams/first 4.jpg" 1713806922 54843 0bbd7b5deb07809774b7ef14f80c7b16 ""
   "../../Frontend Status/Mid Term/frontend app status for mini proj 2.jpg" 1713715423 57958 713a1c1510b0d940de708a6d12d8fa8e ""
   "../../Frontend Status/Mid Term/frontend app status for mini proj eval.jpg" 1713715269 68011 98ce38ab853ec9fad797afc997aec45a ""
@@ -216,14 +216,14 @@
   "krish.jpg" 1713813404 16090 3731491f3a46a41c751d1635cc7491b8 ""
   "lecture.jpg" 1713809376 75611 96cdac419941edc0cb0042a73b4efb4e ""
   "mongo.jpg" 1713810472 60058 0c9cbc47b5d5f93498669d6f89902243 ""
-  "p:/Programs/JavaScript/Attendence-Assistant/official docs/Presentation/mid_term_progress_eval/presentation.tex" 1713813607 15896 d31563d5b5a1437cf2d381b4453aa9bf ""
+  "p:/Programs/JavaScript/Attendence-Assistant/official docs/Presentation/mid_term_progress_eval/presentation.tex" 1713922760 15896 d31563d5b5a1437cf2d381b4453aa9bf ""
   "panel.jpg" 1713809350 64506 29937e9b0cd7cb1ab5f19ec36b20b912 ""
   "parth.jpg" 1713813453 81690 3300a91d1c2ed2e37362e7ca11205449 ""
-  "presentation.aux" 1713813609 9148 f6a2c991ca7af99763df118da2bfbb82 "pdflatex"
-  "presentation.nav" 1713813609 5973 37cbaccaee7b78adb7b6e4573430d606 "pdflatex"
-  "presentation.out" 1713813609 1575 1843e2c08ca865127310acd25d651eba "pdflatex"
-  "presentation.tex" 1713813607 15896 d31563d5b5a1437cf2d381b4453aa9bf ""
-  "presentation.toc" 1713813609 618 f6571f22c463f11337c289d220ae4186 "pdflatex"
+  "presentation.aux" 1713922809 9148 f6a2c991ca7af99763df118da2bfbb82 "pdflatex"
+  "presentation.nav" 1713922809 5973 37cbaccaee7b78adb7b6e4573430d606 "pdflatex"
+  "presentation.out" 1713922809 1575 1843e2c08ca865127310acd25d651eba "pdflatex"
+  "presentation.tex" 1713922760 15896 d31563d5b5a1437cf2d381b4453aa9bf ""
+  "presentation.toc" 1713922809 618 f6571f22c463f11337c289d220ae4186 "pdflatex"
   "react native 2.png" 1713806631 27986 9292bcec75ef3219ddd2a0cb1a21af38 ""
   "saubhagya.jpg" 1713813181 60232 3a2ca08d6367f10ea2f94bad5dd67f10 ""
   "semester.jpg" 1713809342 81269 a2ee608facb5094af984ea342ebacf6d ""

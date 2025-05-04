@@ -15,6 +15,8 @@
 \usepackage{xcolor}
 \usepackage{blindtext}
 \usepackage{hyperref}
+\usepackage{minted}
+
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
@@ -53,8 +55,8 @@
 \pagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
-\fancyhead[L]{\textit{\Large{Seminar - 3nd Year B. Tech}}}
-\fancyhead[R]{\textit{Krishnaraj T}}
+\fancyhead[L]{\textit{\Large{Report - 4th Year B. Tech}}}
+\fancyhead[R]{\textit{Krishnaraj Thadesar}}
 \fancyfoot[C]{\thepage}
 \renewcommand{\footrulewidth}{1pt}
 
@@ -79,7 +81,7 @@
         Department of Computer Engineering \& Technology \\
         School of Computer Science \& Engineering\\
         Seminar\\
-        Third Year B. Tech, Semester 5\\
+        Year B. Tech, Semester 5\\
     }
 
     \vfill % space after Sub Name
@@ -115,7 +117,7 @@
     \vspace{0.5\baselineskip} % Whitespace below the editor list
     Under the Guidance of\\
     \Large{
-        \textbf{Dr. Vinayak Musale}
+        \textbf{Dr. Sharmishta Desai}
     }
     \vfill
 
@@ -155,7 +157,7 @@
 \chapter*{Acknowledgment}
 \thispagestyle{empty}
 
-I would like to express my deepest appreciation to all those who provided me the possibility to complete this report. A special gratitude I give to our mentor, Dr. Vinayak Musale, whose contribution in stimulating suggestions and encouragement, helped me to coordinate my project especially in writing this report.\\
+I would like to express my deepest appreciation to all those who provided me the possibility to complete this report. A special gratitude I give to our mentor, Dr. Sharmishta Desai, whose contribution in stimulating suggestions and encouragement, helped me to coordinate my project especially in writing this report.\\
 
 Furthermore, I would also like to acknowledge with much appreciation the crucial role of the staff of MIT WPU, who gave the permission to use all required equipment and the necessary materials to complete the task. A special thanks goes to my team mates,who helped me enormously to assemble the parts and gave suggestion about the task of using the techniques of measurements.\\
 
@@ -167,7 +169,7 @@ I would also like to thank my parents for their wise counsel and sympathetic ear
 
 \section*{Name of Student}
 \begin{enumerate}
-    \item Krishnaraj Thadesar, PA10, 1032210888
+    \item Krishnaraj Thadesar, 1032210888
 \end{enumerate}
 
 \thispagestyle{empty}
@@ -214,7 +216,7 @@ This project will help in understanding the various face recognition algorithms 
 
 To use the correct method and library in finding attendance, so as to reduce time and cost, while also maintaining high levels of accuracy, it was necessary to compare the various face recognition algorithms and techniques.
 
-\chapter{Literature Review}
+\chapter{Literature Survey}
 
 \section{Paper 1}
 Title:  \textit{"A Comparative Study of Facial Recognition Techniques: With focus on low computational power."}
@@ -223,9 +225,9 @@ Author:  \textit{Schenkel, T., Ringhage, O. and Branding, N.}
 \subsection{Positives and Learnings from this Paper}
 
 \begin{enumerate}
-    \item \tiny{The publication compares five performance metrics, including recall and F-score, providing a comprehensive evaluation of facial recognition techniques.}
-    \item \tiny{It addresses the importance of balancing low computational time and prediction ability for security systems, offering practical guidelines for implementation.}
-    \item \tiny{The research questions are clearly defined, focusing on significant differences in performance, training time, and prediction time among different facial recognition techniques and classifiers.}
+    \item {The publication compares five performance metrics, including recall and F-score, providing a comprehensive evaluation of facial recognition techniques.}
+    \item {It addresses the importance of balancing low computational time and prediction ability for security systems, offering practical guidelines for implementation.}
+    \item {The research questions are clearly defined, focusing on significant differences in performance, training time, and prediction time among different facial recognition techniques and classifiers.}
 \end{enumerate}
 \subsection{Identified Research Gaps}
 
@@ -382,35 +384,181 @@ Author:  \textit{Schenkel, T., Ringhage, O. and Branding, N.} \cite{11}
 \textbf{Compilers or Interpreters}: Python 3.10.1\\
 
 \subsection{Training Data}
-Certainly! Below is the provided images arranged in a table format with the serial number in the first column, the name in the third column, and the images in the second column:
-
+\begin{itemize}
+    \item The dataset used for training and testing the face recognition algorithms is a collection of images of individuals, each labeled with their name.
+    \item The dataset contains images of different individuals taken under various lighting conditions, angles, and expressions to ensure robustness in face recognition.
+    \item The dataset is divided into two parts: a training set used to train the face recognition model and a testing set used to evaluate the model's performance.
+\end{itemize}
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|}
         \hline
         \textbf{Serial Number} & \textbf{Name} & \textbf{Image}                                        \\
         \hline
-        1                      & Saubhagya     & \includegraphics[height=.25\textwidth]{saubhagya.jpg} \\
+        1                      & Saubhagya     & \includegraphics[height=.25\textwidth]{../imgs/saubhagya.jpg} \\
         \hline
-        2                      & Avishkar      & \includegraphics[height=.25\textwidth]{avishkar.jpg}  \\
+        2                      & Avishkar      & \includegraphics[height=.25\textwidth]{../imgs/avishkar.jpg}  \\
         \hline
-        3                      & Karad         & \includegraphics[height=.25\textwidth]{karad.jpg}     \\
+        3                      & Karad         & \includegraphics[height=.25\textwidth]{../imgs/karad.jpg}     \\
         \hline
-        4                      & Krish         & \includegraphics[height=.25\textwidth]{krish.jpg}     \\
+        4                      & Krish         & \includegraphics[height=.25\textwidth]{../imgs/krish.jpg}     \\
         \hline
-        5                      & Parth         & \includegraphics[height=.25\textwidth]{parth.jpg}     \\
+        5                      & Parth         & \includegraphics[height=.25\textwidth]{../imgs/parth.jpg}     \\
         \hline
     \end{tabular}
     \caption{Training Data Images}
 \end{table}
 
+
+
+\subsection{Creation of Dataset}
+\subsubsection{Cropped Faces using openCV-haar-cascades}
+The following code generated 18,832 possible faces (245x245px) each. The code uses the OpenCV library to detect faces in images and crop them. The cropped faces are then saved in a specified output folder. The code uses the Haar Cascade classifier for face detection, which is a popular method for real-time face detection. 
+\begin{lstlisting}[language=Python]
+import cv2
+import os
+import numpy as np
+
+def detect_and_crop_faces(input_folder, output_folder, padding=10):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+    
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+    
+    for filename in os.listdir(input_folder):
+        if filename.lower().endswith(('png', 'jpg', 'jpeg', 'webp')):
+            image_path = os.path.join(input_folder, filename)
+            image = cv2.imread(image_path)
+            
+            if image is None:
+                continue
+            
+            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+            faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+            
+            for i, (x, y, w, h) in enumerate(faces):
+                x1 = max(x - padding, 0)
+                y1 = max(y - padding, 0)
+                x2 = min(x + w + padding, image.shape[1])
+                y2 = min(y + h + padding, image.shape[0])
+                
+                face_crop = image[y1:y2, x1:x2]
+                output_path = os.path.join(output_folder, f"{os.path.splitext(filename)[0]}_face_{i}.jpg")
+                cv2.imwrite(output_path, face_crop)
+                print(f"Saved cropped face: {output_path}")
+
+input_folder = os.path.join(os.getcwd(), "input_images")  
+output_folder = os.path.join(os.getcwd(), "output_images") 
+
+detect_and_crop_faces(input_folder, output_folder)
+    
+\end{lstlisting}
+Results of the above code are shown in the figure below. The images are cropped and saved in the output folder.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/Cropped images.png}
+    \caption{Cropped Faces using OpenCV Haar Cascades}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/Copped images 2.png}
+    \caption{Cropped Faces using OpenCV Haar Cascades}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/Copped images 3.png}
+    \caption{Cropped Faces using OpenCV Haar Cascades}
+\end{figure}
+
+\subsubsection{Manually Segregated photos for 5 people and labelled them}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/krishnaraj.png}
+    \caption{Krishnaraj's Segregated Images}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/saubhagya.png}
+    \caption{Saubhagya's Segregated Images}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/parth.png}
+    \caption{Parth's Segregated Images}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/sourab.png}
+    \caption{Sourab's Segregated Images}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/abhijeet.png}
+    \caption{Abhijeet's Segregated Images}
+\end{figure}
+
+
 \subsection{Preliminary Results}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{face rec results cropped.jpg}
+    \includegraphics[width=.95\textwidth]{../imgs/face rec results cropped.jpg}
     \caption{Results identifying 3 of the 4 faces. Empirical results show that the model is working, with accuracy of around 75 \%}
 \end{figure}
 
+\subsection{Accuracy per Persion (Class) - LBPH Face Recognizer}
+\subsubsection{LBPH Face Recognizer code}
+\lstset{language=Python, basicstyle=\ttfamily\small, numbers=left}
+\lstinputlisting{../code/Module.py}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/accuracy per person.jpg}
+    \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
+\end{figure}
+
+
+\chapter{Future Prospects for the Attendance Assistant }
+Building on our implementation of an automated facial-recognition-based attendance assistant, several avenues can significantly enhance its performance, scalability, and real-world viability:
+\section{Integration of advanced Deep-Learning Models}
+\begin{itemize}
+    \item \textbf{Adopt Lightweight CNNs and Vision Transformers:} Replace or augment traditional feature-based methods (e.g., Eigenfaces, Fisherfaces) with compact convolutional neural networks (MobileNet, EfficientNet) or vision-transformer variants to boost accuracy under varied lighting and poses—while still enabling on-device inference.
+    \item \textbf{Hybrid Pipeline Architecture:} Combine fast, classical face detection (e.g., OpenCV Haar cascades) with a secondary deep-learning re-identification stage to balance speed and precision in live classroom or office settings.
+\end{itemize}
+\section{Dataset Expansion and Synthetic Augmentation}
+\begin{itemize}
+    \item \textbf{Larger, More Divers Training Sets:} Scale beyond our initial 5-person dataset (=18k crops) by collecting images across multiple sessions, cameras, and demographics to reduce bias and improve generalization.
+    \item \textbf{GAN-Based Augmentation:} Leverage generative adversarial networks to synthesize varied facial expressions, occlusions (masks, scarves), and lighting conditions—ensuring robust attendance capture even when subjects wear accessories or move dynamically.
+\end{itemize}
+
+\section{Edge Deployment and Resource Optimization}
+\begin{itemize}
+    \item \textbf{Model Compression Techniques:} Apply quantization and pruning to shrink model size for deployment on low-power edge devices (e.g., Raspberry Pi, embedded IP cameras), minimizing latency in real-time roll-call scenarios.
+    \item \textbf{Hardware Acceleration:}Utilize on-board NPUs or Coral TPUs to offload inference, enabling simultaneous multi-camera streams for large lecture halls or multiple office entrances.
+\end{itemize}
+\section{Privacy, Security, and Ethical Considerations}
+\begin{itemize}
+    \item \textbf{Federated Learning and on-Device Training:}Implement a federated learning framework so endpoints (e.g., classroom tablets) collaboratively improve the recognition model without sharing raw images—protecting sensitive biometric data by sharing only encrypted weight updates.
+    \item \textbf{Anti-Spoofing and liveness Detection:} Integrate texture analysis and micro-motion cues to distinguish live faces from photographs or video replays, safeguarding against presentation attacks
+    \item \textbf{Bias Auditing:} Regularly evaluate performance metrics (accuracy, false positives/negatives) across gender, age, and skin-tone strata to identify and mitigate algorithmic bias.
+\end{itemize}
+\section{Mutlti-Modal and Context-Aware Fusion:}
+\begin{itemize}
+    \item \textbf{Biometric Fusion:} Biometric Fusion
+    Augment facial data with voice recognition or RFID badge readings to confirm identity when face confidence scores drop below a threshold (e.g., under poor lighting).
+    \item \textbf{Environmental Sensing:} Dynamically adjust recognition thresholds based on scene context—bright vs. dim classrooms, seated vs. standing students—to maintain both high recall and precision.
+\end{itemize}
+
+\section{Broader Applications and Commercialization}
+\begin{itemize}
+    \item \textbf{Enterprise Time-Tracking Systems:} Extend the attendance assistant to corporate environments, integrating with HR systems for automated timekeeping and employee verification at entrances.
+    \item \textbf{Smart-campus and IoT Integration:} Link attendance data with campus access control, library entry logs, and canteen payments to create a unified student experience.
+    \item \textbf{Analytics Dashboard:} Offer administrators real-time dashboards showing attendance trends, tardiness patterns, and automated alerts for absenteeism spikes.
+\end{itemize}
+By pursuing these directions—grounded in our core implementation and the comparative analyses documented earlier—our Attendance Assistant can evolve into a robust, privacy-preserving, and widely deployable solution for both educational institutions and enterprises alike.
 \chapter{Conclusion}
 In this seminar, we have discussed the various face recognition algorithms and techniques used in the field of computer vision. We have compared the performance of these algorithms based on accuracy, efficiency, and scalability. We have also discussed the advantages and disadvantages of face recognition technology and its applications in real-world scenarios.
 

@@ -1,9 +1,9 @@
-\contentsline {section}{\numberline {0.1}Abstract}{6}{section.0.1}%
-\contentsline {section}{\numberline {0.2}Keywords}{6}{section.0.2}%
+\contentsline {section}{\numberline {0.1}Abstract}{7}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Keywords}{7}{section.0.2}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {subsection}{\numberline {1.0.1}Problem Statement}{1}{subsection.1.0.1}%
 \contentsline {subsection}{\numberline {1.0.2}Need of the Project}{1}{subsection.1.0.2}%
-\contentsline {chapter}{\numberline {2}Literature Review}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Literature Survey}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Paper 1}{2}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Positives and Learnings from this Paper}{2}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Identified Research Gaps}{2}{subsection.2.1.2}%
@@ -28,6 +28,18 @@
 \contentsline {section}{\numberline {3.6}Implementations}{7}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Platform}{7}{section.3.7}%
 \contentsline {subsection}{\numberline {3.7.1}Training Data}{7}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Preliminary Results}{9}{subsection.3.7.2}%
-\contentsline {chapter}{\numberline {4}Conclusion}{10}{chapter.4}%
-\contentsline {chapter}{Bibliography}{11}{chapter*.8}%
+\contentsline {subsection}{\numberline {3.7.2}Creation of Dataset}{9}{subsection.3.7.2}%
+\contentsline {subsubsection}{Cropped Faces using openCV-haar-cascades}{9}{section*.8}%
+\contentsline {subsubsection}{Manually Segregated photos for 5 people and labelled them}{11}{section*.9}%
+\contentsline {subsection}{\numberline {3.7.3}Preliminary Results}{14}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Accuracy per Persion (Class) - LBPH Face Recognizer}{14}{subsection.3.7.4}%
+\contentsline {subsubsection}{LBPH Face Recognizer code}{14}{section*.10}%
+\contentsline {chapter}{\numberline {4}Future Prospects for the Attendance Assistant }{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Integration of advanced Deep-Learning Models}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Dataset Expansion and Synthetic Augmentation}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Edge Deployment and Resource Optimization}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Privacy, Security, and Ethical Considerations}{22}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Mutlti-Modal and Context-Aware Fusion:}{22}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Broader Applications and Commercialization}{22}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Conclusion}{23}{chapter.5}%
+\contentsline {chapter}{Bibliography}{24}{chapter*.11}%

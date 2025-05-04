@@ -395,15 +395,15 @@ Author:  \textit{Schenkel, T., Ringhage, O. and Branding, N.} \cite{11}
         \hline
         \textbf{Serial Number} & \textbf{Name} & \textbf{Image}                                        \\
         \hline
-        1                      & Saubhagya     & \includegraphics[height=.25\textwidth]{saubhagya.jpg} \\
+        1                      & Saubhagya     & \includegraphics[height=.25\textwidth]{../imgs/saubhagya.jpg} \\
         \hline
-        2                      & Avishkar      & \includegraphics[height=.25\textwidth]{avishkar.jpg}  \\
+        2                      & Avishkar      & \includegraphics[height=.25\textwidth]{../imgs/avishkar.jpg}  \\
         \hline
-        3                      & Karad         & \includegraphics[height=.25\textwidth]{karad.jpg}     \\
+        3                      & Karad         & \includegraphics[height=.25\textwidth]{../imgs/karad.jpg}     \\
         \hline
-        4                      & Krish         & \includegraphics[height=.25\textwidth]{krish.jpg}     \\
+        4                      & Krish         & \includegraphics[height=.25\textwidth]{../imgs/krish.jpg}     \\
         \hline
-        5                      & Parth         & \includegraphics[height=.25\textwidth]{parth.jpg}     \\
+        5                      & Parth         & \includegraphics[height=.25\textwidth]{../imgs/parth.jpg}     \\
         \hline
     \end{tabular}
     \caption{Training Data Images}
@@ -450,55 +450,54 @@ def detect_and_crop_faces(input_folder, output_folder, padding=10):
 input_folder = os.path.join(os.getcwd(), "input_images")  
 output_folder = os.path.join(os.getcwd(), "output_images") 
 
-detect_and_crop_faces(input_folder, output_folder)
-    
+detect_and_crop_faces(input_folder, output_folder)  
 \end{lstlisting}
 Results of the above code are shown in the figure below. The images are cropped and saved in the output folder.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/Cropped images.png}
+    \includegraphics[width=.95\textwidth]{../imgs/Cropped images.png}
     \caption{Cropped Faces using OpenCV Haar Cascades}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/Copped images 2.png}
+    \includegraphics[width=.95\textwidth]{../imgs/Copped images 2.png}
     \caption{Cropped Faces using OpenCV Haar Cascades}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/Copped images 3.png}
+    \includegraphics[width=.95\textwidth]{../imgs/Copped images 3.png}
     \caption{Cropped Faces using OpenCV Haar Cascades}
 \end{figure}
 
 \subsubsection{Manually Segregated photos for 5 people and labelled them}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/krishnaraj.png}
+    \includegraphics[width=.95\textwidth]{../imgs/krishnaraj.png}
     \caption{Krishnaraj's Segregated Images}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/saubhagya.png}
+    \includegraphics[width=.95\textwidth]{../imgs/saubhagya.png}
     \caption{Saubhagya's Segregated Images}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/parth.png}
+    \includegraphics[width=.95\textwidth]{../imgs/parth.png}
     \caption{Parth's Segregated Images}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/sourab.png}
+    \includegraphics[width=.95\textwidth]{../imgs/sourab.png}
     \caption{Sourab's Segregated Images}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/abhijeet.png}
+    \includegraphics[width=.95\textwidth]{../imgs/abhijeet.png}
     \caption{Abhijeet's Segregated Images}
 \end{figure}
 
@@ -506,17 +505,17 @@ Results of the above code are shown in the figure below. The images are cropped 
 \subsection{Preliminary Results}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{face rec results cropped.jpg}
+    \includegraphics[width=.95\textwidth]{../imgs/face rec results cropped.jpg}
     \caption{Results identifying 3 of the 4 faces. Empirical results show that the model is working, with accuracy of around 75 \%}
 \end{figure}
 
 \subsection{Accuracy per Persion (Class) - LBPH Face Recognizer}
 \subsubsection{LBPH Face Recognizer code}
 \lstset{language=Python, basicstyle=\ttfamily\small, numbers=left}
-\lstinputlisting{code/Module.py}
+\lstinputlisting{../code/Module.py}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{imgs/accuracy per person.jpg}
+    \includegraphics[width=.95\textwidth]{../imgs/accuracy per person.jpg}
     \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
 \end{figure}
 

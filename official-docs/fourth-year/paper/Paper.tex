@@ -49,9 +49,8 @@
 \maketitle
 
 \begin{abstract}
-    The Attendance-Assistant project aims to revolutionize attendance management in educational institutions by leveraging facial recognition technology. Integrated with Raspberry Pi IoT devices and a React Native frontend, the backend system utilizes MongoDB for data storage and FastAPI for backend services. This paper discusses the system's architecture, database design, and key features, highlighting its potential to enhance efficiency and accuracy in attendance tracking.\\
+    The Attendance-Assistant project provides a cross-platform mobile application that automates attendance tracking in educational institutions through facial recognition. Built with React Native for the frontend and powered by a FastAPI backend with MongoDB for secure data storage, it streamlines the entire workflow—from user authentication and face-encoding management to real-time attendance marking and reporting. This paper describes the system architecture, database schema, and core functionalities, and demonstrates how the solution enhances both efficiency and accuracy compared to traditional attendance methods.
 \end{abstract}
-
 \begin{IEEEkeywords}
     Facial Recognition, Frontend, Backend, FastAPI, MongoDB, Raspberry Pi, IoT, React Native, Attendance Management, Educational Institutions, Backend Development, Automation, Data Integrity, Firebase
 \end{IEEEkeywords}
@@ -286,7 +285,7 @@ The face\_recognition \cite{6} library is used for facial recognition. The model
 
 \subsection{Training Data}
 The training data for facial recognition consists of facial images of students stored in the \texttt{Encodings} collection. These images are used to generate face encodings, which are then compared with live facial data for identification. Refer to Table \ref{tab:training-data} for some example images.
-\begin{table*}[h]
+\begin{table}[h]
     \centering
     \begin{tabular}{|c|c|c|}
         \hline
@@ -305,7 +304,7 @@ The training data for facial recognition consists of facial images of students s
     \end{tabular}
     \caption{Training data for facial recognition, some example images.}
     \label{tab:training-data}
-\end{table*}
+\end{table}
 \subsection{Example Result}
 Refer to Figure \ref{fig:face-rec-results} for the results of facial recognition identifying 3 of the 4 faces. The model is working, with an accuracy of around 75 \%.
 \begin{figure}

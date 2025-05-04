@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746388171.21854 "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/Sourab/report.tex" "report.pdf" "report" 1746388172.80799 0
+["pdflatex"] 1746388729.19947 "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/Sourab/report.tex" "report.pdf" "report" 1746388730.77548 0
   "../code/Module.py" 1746386196 7764 296a07bdce6ef6998288b9a1e3aabfaa ""
   "../imgs/Copped images 2.png" 1746380839 1549010 c3d81ff59836bd3091b24bba975f08c1 ""
   "../imgs/Copped images 3.png" 1746381085 1468960 5421e4c12d058f9d73a330784b6c431a ""
@@ -149,13 +149,13 @@
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/Sourab/report.tex" 1746388169 35292 91886400848b30610fcfb49ea5495e9a ""
-  "report.aux" 1746388172 8416 aa50cc661adeb0a790b1d4375224e486 "pdflatex"
-  "report.lof" 1746388172 1277 144979a5a2244e9ae117055b70f67661 "pdflatex"
-  "report.lot" 1746388172 192 ed303f42370f944986ffc2b52f451b67 "pdflatex"
-  "report.out" 1746388172 7466 2d72d3c35e5c752f02ca24e707c43872 "pdflatex"
-  "report.tex" 1746388169 35292 91886400848b30610fcfb49ea5495e9a ""
-  "report.toc" 1746388172 3896 4437fe13e6c1367f7df4fc3de09d86b8 "pdflatex"
+  "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/Sourab/report.tex" 1746388728 35290 fe5540168988039945850230f8dd0ff9 ""
+  "report.aux" 1746388730 8416 aa50cc661adeb0a790b1d4375224e486 "pdflatex"
+  "report.lof" 1746388730 1277 144979a5a2244e9ae117055b70f67661 "pdflatex"
+  "report.lot" 1746388730 192 ed303f42370f944986ffc2b52f451b67 "pdflatex"
+  "report.out" 1746388730 7466 2d72d3c35e5c752f02ca24e707c43872 "pdflatex"
+  "report.tex" 1746388728 35290 fe5540168988039945850230f8dd0ff9 ""
+  "report.toc" 1746388730 3896 4437fe13e6c1367f7df4fc3de09d86b8 "pdflatex"
   (generated)
   "report.aux"
   "report.lof"

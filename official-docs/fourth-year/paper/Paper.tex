@@ -415,6 +415,26 @@ Backend exposes API endpoints to perform CRUD (Create, Read, Update, Delete) ope
 
 \subsubsection{Data Relationships}
 Circular dependencies between collections, such as adding a document's ID to a dependent collection, are carefully managed to maintain data integrity and consistency.
+\section{Comparisons Between Different Algorithms}
+\subsection{Accuracy Evaluation of LBPH Face Recognition Model through Per-Person Visualization}
+
+In this study, the Local Binary Patterns Histograms (LBPH) algorithm was used for facial recognition due to its effectiveness in handling variations in lighting and facial expressions. The LBPH model works by analyzing local texture patterns in grayscale images, encoding pixel neighborhoods into binary patterns, and generating histograms that uniquely represent facial features. After training the model on a dataset containing multiple images per individual, it was tested to evaluate how accurately it could recognize each person. To visualize these results, a bar graph was created showing the accuracy obtained for each individual. Since displaying all names on the x-axis would result in visual clutter, numeric labels were used instead, with a clean bullet-style legend on the right side to map each number to the corresponding person. This graph helps in understanding the model's performance variability across different individuals. Some subjects achieved high recognition accuracy, indicating clear and consistent training data, while others had lower accuracy, possibly due to pose variation or insufficient image samples. This kind of per-person evaluation is essential to ensure the model's reliability, highlight outliers, and guide improvements in data collection or preprocessing strategies.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.45\textwidth]{accuracy per person.jpg}
+    \caption{Accuracy Evaluation of LBPH Face Recognition Model through Per-Person Visualization}
+    \label{fig:Accuracy per Person (Class) - LBPH Face Recognizer}
+\end{figure}
+\subsection{FaceNet Average Recognition Accuracy per Person }
+
+The FaceNet algorithm was employed for facial recognition in this study, leveraging its deep learning capabilities to achieve high accuracy. The model was trained on a dataset containing multiple images per individual, and its performance was evaluated by calculating the average recognition accuracy for each person. A bar graph was created to visualize these results, with numeric labels on the x-axis to avoid cluttering the display. The graph provides a clear representation of the model's performance across different individuals, allowing for easy identification of those with high or low recognition accuracy. This evaluation is crucial for understanding the model's strengths and weaknesses, guiding future improvements in data collection and preprocessing strategies.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.45\textwidth]{FaceNet.jpg}
+    \caption{FaceNet Average Recognition Accuracy per Person}
+    \label{fig:FaceNet Average Recognition Accuracy per Person}
+\end{figure}
 
 \section{Conclusion}
 The Attendance-Assistant project offers a comprehensive solution to automate attendance management in educational institutions. By leveraging facial recognition technology, the system enhances efficiency, accuracy, and data integrity in attendance tracking. The modular architecture, IoT integration, and frontend development ensure a seamless user experience for administrators, teachers, and students. With a robust backend system, MongoDB database, and facial recognition implementation, the project aims to revolutionize attendance management processes and set new standards for educational institutions.

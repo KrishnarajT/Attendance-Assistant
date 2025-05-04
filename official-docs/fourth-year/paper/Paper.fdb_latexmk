@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746389521.8515 "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/paper/Paper.tex" "Paper.pdf" "Paper" 1746389522.35001 0
+["pdflatex"] 1746391119.28006 "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/paper/Paper.tex" "Paper.pdf" "Paper" 1746391119.92701 0
   "C:/Users/pc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1746386256 100067 0a1ed65b362230434f52fc3a251dc234 ""
   "C:/Users/pc/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1706543561 24223630 2cc5b7a15813a0d3de42fb61c68a6cf7 ""
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -75,13 +75,15 @@
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Paper.aux" 1746389522 8963 c21d1bd3cbc6614d15b5d67cf65fc6c5 "pdflatex"
-  "Paper.tex" 1746389520 33074 fd07c9383bfd9f9084f783772e8f66cb ""
+  "FaceNet.jpg" 1746390887 79231 b0d6b6dbf472c5d77afd9dae4165fc90 ""
+  "Paper.aux" 1746391119 9920 a7bc23bf442fb3270264701aa67c84fe "pdflatex"
+  "Paper.tex" 1746391119 35900 bb7f599afbd2b92b3c9ed8c37d211c2c ""
+  "accuracy per person.jpg" 1746384143 113333 e250243401c2ce0b188c0f3e081d259e ""
   "app 1.jpg" 1746374972 20329 89a3d55b80681a759194057471270fcc ""
   "app 2.jpg" 1746374972 26356 01248d2afaf32e60e9d280fbfe3ad9f7 ""
   "avishkar.jpg" 1746374972 32079 f0b403efea702e765571ceaa2ea47374 ""
   "face rec results cropped.jpg" 1746374972 253286 561f54425e826e19a01ed33e555a982f ""
-  "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/paper/Paper.tex" 1746389520 33074 fd07c9383bfd9f9084f783772e8f66cb ""
+  "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/paper/Paper.tex" 1746391119 35900 bb7f599afbd2b92b3c9ed8c37d211c2c ""
   "karad.jpg" 1746374972 65148 99de8b0258f2fca136e76c64734fd4ad ""
   "krish.jpg" 1746374972 21310 6eae58509683354149d292e50f24764d ""
   "parth.jpg" 1746374972 126347 ab8bb6a3a1558795e7295754fb61429f ""

@@ -262,6 +262,9 @@ INPUT .\report.lof
 INPUT .\report.lof
 INPUT report.lof
 OUTPUT report.lof
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
 INPUT .\report.lot
 INPUT .\report.lot
 INPUT report.lot
@@ -269,9 +272,6 @@ OUTPUT report.lot
 INPUT .\report.toc
 INPUT .\report.toc
 INPUT report.toc
-INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
-INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
-INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
 OUTPUT report.toc
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
@@ -667,13 +667,91 @@ INPUT ..\imgs\final_model_comp.jpg
 INPUT ..\imgs\final_model_comp.jpg
 INPUT ..\imgs\final_model_comp.jpg
 INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\vf\public\fouriernc\fncsy.vf
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8r.tfm
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\model_1_per_person.jpg
+INPUT ..\imgs\model_1_per_person.jpg
+INPUT ..\imgs\model_1_per_person.jpg
+INPUT ..\imgs\model_1_per_person.jpg
+INPUT ..\imgs\model_2_per_person.jpg
+INPUT ..\imgs\model_2_per_person.jpg
+INPUT ..\imgs\model_2_per_person.jpg
+INPUT ..\imgs\model_2_per_person.jpg
+INPUT ..\imgs\model_3_per_person.jpg
+INPUT ..\imgs\model_3_per_person.jpg
+INPUT ..\imgs\model_3_per_person.jpg
+INPUT ..\imgs\model_3_per_person.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
 INPUT report.aux
 INPUT .\report.out
 INPUT .\report.out
+INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
+INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
 INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0800.pk
 INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0800.pk
 INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk
 INPUT C:\Users\Krishnaraj\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt0800.pk
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-ms.pfb
+INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-ms.pfb
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\urw\ncntrsbk\uncb8a.pfb
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\urw\ncntrsbk\uncb8a.pfb
 INPUT C:\Users\Krishnaraj\AppData\Local\Programs\MiKTeX\fonts\type1\urw\ncntrsbk\uncr8a.pfb

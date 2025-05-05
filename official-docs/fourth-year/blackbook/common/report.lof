@@ -2,47 +2,64 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces App Design}}{19}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces App Design}}{20}{figure.4.2}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces App Design}}{20}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces App Design}}{21}{figure.4.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Block Diagram}}{22}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Activity Diagram}}{24}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Activity Diagram Continued}}{25}{figure.5.3}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Block Diagram}}{23}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Activity Diagram}}{25}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Activity Diagram Continued}}{26}{figure.5.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Project Timeline}}{26}{figure.6.1}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Project Timeline}}{27}{figure.6.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Cropped Faces using OpenCV Haar Cascades}}{33}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Cropped Faces using OpenCV Haar Cascades}}{33}{figure.7.2}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Cropped Faces using OpenCV Haar Cascades}}{34}{figure.7.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces API Endpoints for Attendance details}}{34}{figure.7.4}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces API Endpoints for Student details}}{35}{figure.7.5}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces API Endpoints for Schools and Specialization details}}{35}{figure.7.6}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces API Endpoints for Panel details}}{35}{figure.7.7}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces API Endpoints for Rooms and Buildings details}}{36}{figure.7.8}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces API Endpoints for Subjects and Semesters details}}{36}{figure.7.9}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces API Endpoints for Teacher details}}{36}{figure.7.10}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces API Endpoints for Lecture details}}{37}{figure.7.11}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Cropped Faces using OpenCV Haar Cascades}}{34}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Cropped Faces using OpenCV Haar Cascades}}{34}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Cropped Faces using OpenCV Haar Cascades}}{35}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces API Endpoints for Attendance details}}{35}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces API Endpoints for Student details}}{36}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces API Endpoints for Schools and Specialization details}}{36}{figure.7.6}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces API Endpoints for Panel details}}{36}{figure.7.7}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces API Endpoints for Rooms and Buildings details}}{37}{figure.7.8}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces API Endpoints for Subjects and Semesters details}}{37}{figure.7.9}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces API Endpoints for Teacher details}}{37}{figure.7.10}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces API Endpoints for Lecture details}}{38}{figure.7.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Krishnaraj's Segregated Images}}{42}{figure.8.1}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Saubhagya's Segregated Images}}{42}{figure.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Parth's Segregated Images}}{43}{figure.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Sourab's Segregated Images}}{43}{figure.8.4}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Abhijeet's Segregated Images}}{44}{figure.8.5}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Confusion Matrix of LBPH Face Recognizer}}{47}{figure.10.1}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Accuracy per Person (Class) - LBPH Face Recognizer}}{47}{figure.10.2}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Accuracy per Person (Class) - LBPH Face Recognizer}}{48}{figure.10.3}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Confusion Matrix of Facenet Face Recognizer}}{49}{figure.10.4}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Accuracy per Person (Class) - Facenet Face Recognizer}}{49}{figure.10.5}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Accuracy per Person (Class) - Facenet Face Recognizer}}{50}{figure.10.6}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Confusion Matrix of Resnet Face Recognizer}}{51}{figure.10.7}%
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Accuracy per Person (Class) - Resnet Face Recognizer}}{51}{figure.10.8}%
-\contentsline {figure}{\numberline {10.9}{\ignorespaces Accuracy per Person (Class) - Resnet Face Recognizer}}{52}{figure.10.9}%
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Final Model Comparison}}{52}{figure.10.10}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Krishnaraj's Segregated Images}}{43}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Saubhagya's Segregated Images}}{43}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Parth's Segregated Images}}{44}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Sourab's Segregated Images}}{44}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Abhijeet's Segregated Images}}{45}{figure.8.5}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Confusion Matrix of LBPH Face Recognizer}}{48}{figure.10.1}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Accuracy per Person (Class) - LBPH Face Recognizer}}{48}{figure.10.2}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Accuracy per Person (Class) - LBPH Face Recognizer}}{49}{figure.10.3}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Confusion Matrix of Facenet Face Recognizer}}{50}{figure.10.4}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Accuracy per Person (Class) - Facenet Face Recognizer}}{50}{figure.10.5}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Accuracy per Person (Class) - Facenet Face Recognizer}}{51}{figure.10.6}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Confusion Matrix of Resnet Face Recognizer}}{52}{figure.10.7}%
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Accuracy per Person (Class) - Resnet Face Recognizer}}{52}{figure.10.8}%
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Accuracy per Person (Class) - Resnet Face Recognizer}}{53}{figure.10.9}%
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Final Model Comparison}}{53}{figure.10.10}%
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {14.1}{\ignorespaces Block Diagram highlighting the modules supported by Parth Zarekar.}}{60}{figure.14.1}%
+\contentsline {figure}{\numberline {14.2}{\ignorespaces Swagger UI for API documentation (Krishnaraj Thadesar’s contribution).}}{61}{figure.14.2}%
+\contentsline {figure}{\numberline {14.3}{\ignorespaces Swagger UI for API documentation (Krishnaraj Thadesar’s contribution).}}{62}{figure.14.3}%
+\contentsline {figure}{\numberline {14.4}{\ignorespaces Swagger UI for API documentation (Krishnaraj Thadesar’s contribution).}}{62}{figure.14.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {15.1}{\ignorespaces MongoDB Collections (Parth Zarekar’s area)}}{65}{figure.15.1}%
+\contentsline {figure}{\numberline {15.2}{\ignorespaces MongoDB Collections (Parth Zarekar’s area)}}{65}{figure.15.2}%
+\contentsline {figure}{\numberline {15.3}{\ignorespaces MongoDB Collections (Parth Zarekar’s area)}}{66}{figure.15.3}%
+\contentsline {figure}{\numberline {15.4}{\ignorespaces MongoDB Collections (Parth Zarekar’s area)}}{66}{figure.15.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {16.1}{\ignorespaces Accuracy per Person (Class) - LBPH Face Recognizer}}{69}{figure.16.1}%
+\contentsline {figure}{\numberline {16.2}{\ignorespaces Accuracy per Person (Class) - Facenet Face Recognizer}}{70}{figure.16.2}%
+\contentsline {figure}{\numberline {16.3}{\ignorespaces Accuracy per Person (Class) - Resnet Face Recognizer}}{70}{figure.16.3}%
+\contentsline {figure}{\numberline {16.4}{\ignorespaces Final Model Comparison (Sourab Karad’s results)}}{71}{figure.16.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {17.1}{\ignorespaces Frontend (Saubhagya Singh’s contribution).}}{73}{figure.17.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

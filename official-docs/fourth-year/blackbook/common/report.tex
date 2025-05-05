@@ -339,7 +339,77 @@ Author:  \textit{Schenkel, T., Ringhage, O. and Branding, N.} \cite{11}
 \section{System Architecture}
 \section{Modules of the Project}
 
-\chapter{Project Plan}
+\chapter{Project Plan - Timeline}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/timeline.jpg}
+    \caption{Project Timeline}
+\end{figure}
+
+
+\section{Phase 1: Research}
+
+\begin{enumerate}
+    \item We started with a literature survey to understand the existing face recognition algorithms and their performance metrics.
+    \item We compared the performance of different algorithms, including Eigenfaces, Fisherfaces, LBPH, and OpenFace, to identify the most suitable one for our project.
+    \item We also explored the use of deep learning techniques, such as Convolutional Neural Networks (CNNs), for face recognition.
+    \item 
+\end{enumerate}
+
+\section{Phase 2: Requirements Gathering}
+
+\begin{enumerate}
+    \item Conducted stakeholder interviews with professors and students to understand their pain points in attendance tracking.
+    \item Defined use cases such as "Mark attendance for a class of 50 students in under 5 minutes" and "Generate attendance reports for a semester."
+    \item Identified non-functional requirements like 95\% accuracy, real-time processing, and GDPR compliance for data privacy.
+    \item Created a requirements traceability matrix to map user stories to functional and non-functional requirements.
+\end{enumerate}
+
+\section{Phase 3: System and Architecture Design}
+
+\begin{enumerate}
+    \item Designed a modular architecture with three main components: frontend (Flutter), backend (FastAPI), and database (MongoDB).
+    \item Created a system block diagram showing data flow between the mobile app, API, and database.
+    \item Defined REST API endpoints for user authentication, face encoding, and attendance logging.
+    \item Developed a database schema with collections for users, face encodings, and attendance logs.
+    \item Incorporated fault-tolerant mechanisms like retry logic for API calls and database backups.
+\end{enumerate}
+
+\section{Phase 4: Development}
+
+\begin{enumerate}
+    \item Implemented the backend using FastAPI, including endpoints for face encoding and attendance marking.
+    \item Developed the frontend using Flutter, with features like face capture, attendance history, and user authentication.
+    \item Integrated the face\_recognition library for face detection and recognition in the backend.
+    \item Used Docker to containerize the application for consistent deployment across environments.
+    \item Followed Git flow for version control, with feature branches and pull requests for code reviews.
+\end{enumerate}
+
+\section{Phase 5: Testing and Quality Assurance}
+
+\begin{enumerate}
+    \item Conducted unit tests for backend API endpoints to ensure correct functionality.
+    \item Performed integration tests to validate end-to-end workflows, such as face capture to attendance logging.
+    \item Conducted user acceptance testing (UAT) with a small group of students and professors to gather feedback.
+    \item Measured system performance under load to ensure it can handle concurrent requests from multiple users.
+    \item Fixed bugs and optimized the application based on test results and user feedback.
+\end{enumerate}
+
+\section{Phase 6: Deployment and Training}
+
+\begin{enumerate}
+    \item Deployed the backend on Local system and MongoDB Atlas for database management.
+\end{enumerate}
+
+\section{Phase 7: Closure and Documentation}
+
+\begin{enumerate}
+    \item Prepared a final project report summarizing the implementation, testing, and deployment phases.
+    \item Delivered the source code, documentation, and deployment scripts to the project stakeholders.
+    \item Conducted a retrospective meeting to discuss lessons learned and areas for improvement.
+    \item Archived all project artifacts, including code, datasets, and test results, for future reference.
+    \item Presented the project outcomes to the academic panel and received feedback for further enhancements.
+\end{enumerate}
 
 \chapter{Implementation}
 
@@ -393,20 +463,68 @@ Author:  \textit{Schenkel, T., Ringhage, O. and Branding, N.} \cite{11}
         \hline
         \textbf{Serial Number} & \textbf{Name} & \textbf{Image}                                        \\
         \hline
-        1                      & Saubhagya     & \includegraphics[height=.25\textwidth]{../imgs/saubhagya.jpg} \\
+        1                      & Saubhagya     & \includegraphics[height=.15\textwidth]{../imgs/saubhagya (2).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/saubhagya (28).jpg}
+        \\
         \hline
-        2                      & Avishkar      & \includegraphics[height=.25\textwidth]{../imgs/avishkar.jpg}  \\
+        2                      & Avishkar      & \includegraphics[height=.15\textwidth]{../imgs/avishkar (1).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/avishkar (8).jpg}
+        \\
         \hline
-        3                      & Karad         & \includegraphics[height=.25\textwidth]{../imgs/karad.jpg}     \\
+        3                      & Karad         & \includegraphics[height=.15\textwidth]{../imgs/sourab.jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/sourab (12).jpg}
+        \\
         \hline
-        4                      & Krish         & \includegraphics[height=.25\textwidth]{../imgs/krish.jpg}     \\
+        4                      & Krish         & \includegraphics[height=.15\textwidth]{../imgs/krish (4).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/krish (66).jpg}
+        \\
         \hline
-        5                      & Parth         & \includegraphics[height=.25\textwidth]{../imgs/parth.jpg}     \\
+        5                      & Parth         & \includegraphics[height=.15\textwidth]{../imgs/parth (1).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/parth (31).jpg}
+        \\
+        \hline
+        6                      & Abhijeet         & \includegraphics[height=.15\textwidth]{../imgs/abhijeet (3).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/abhijeet (5).jpg}
+        \\
+        \hline
+        7                      & Naman         & \includegraphics[height=.15\textwidth]{../imgs/naman (42).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/naman (8).jpg}
+        \\
+        \hline
+        8                      & Mayur         & \includegraphics[height=.15\textwidth]{../imgs/mayur (13).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/mayur (1).jpg}
+        \\
         \hline
     \end{tabular}
     \caption{Training Data Images}
 \end{table}
 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Serial Number} & \textbf{Name} & \textbf{Image}                                        \\
+        \hline
+        9                      & Sahaj         & \includegraphics[height=.15\textwidth]{../imgs/sahaj (17).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/sahaj (42).jpg}
+        \\
+        \hline
+        10                      & Maitreyee         & \includegraphics[height=.15\textwidth]{../imgs/maitreyee (21).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/maitreyee (78).jpg}
+        \\
+        \hline
+        \hline
+        11                      & Prathamesh         & \includegraphics[height=.15\textwidth]{../imgs/prathamesh (27).jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/prathamesh.jpg}
+        \\
+        \hline
+        12                      & Khare         & \includegraphics[height=.15\textwidth]{../imgs/khare.jpg}
+        \includegraphics[height=.15\textwidth]{../imgs/khare (32).jpg}
+        \\
+        \hline
+    \end{tabular}
+    \caption{Training Data Images (Continued)}
+\end{table}
 
 \subsection{Creation of Dataset}
 \subsubsection{Cropped Faces using openCV-haar-cascades}
@@ -450,7 +568,7 @@ output_folder = os.path.join(os.getcwd(), "output_images")
 detect_and_crop_faces(input_folder, output_folder)
     
 \end{lstlisting}
-Results of the above code are shown in the figure below. The images are cropped and saved in the output folder.
+\textbf{Results of the above code are shown in the figure below. The images are cropped and saved in the output folder.}
 
 \begin{figure}[H]
     \centering
@@ -469,6 +587,303 @@ Results of the above code are shown in the figure below. The images are cropped 
     \includegraphics[width=.95\textwidth]{../imgs/Copped images 3.png}
     \caption{Cropped Faces using OpenCV Haar Cascades}
 \end{figure}
+
+\section{API Endpoints}
+\subsection{Attendance API Endpoints}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.99\textwidth]{../imgs/swagger 1.jpg}
+    \caption{API Endpoints for Attendance details}
+\end{figure}
+
+\subsection{Student API Endpoints}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.99\textwidth]{../imgs/swagger 2.jpg}
+    \caption{API Endpoints for Student details}
+\end{figure}
+
+\subsection{Schools and Specialization API Endpoints}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.99\textwidth]{../imgs/swagger 3.jpg}
+    \caption{API Endpoints for Schools and Specialization details}
+\end{figure}
+
+\subsection{Panel API Endpoints}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.99\textwidth]{../imgs/swagger 4.jpg}
+    \caption{API Endpoints for Panel details}
+\end{figure}
+
+
+\subsection{Rooms and Buildings API Endpoints}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.99\textwidth]{../imgs/swagger 5.jpg}
+    \caption{API Endpoints for Rooms and Buildings details}
+\end{figure}
+
+
+\subsection{Subjects and Semesters API Endpoints}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.99\textwidth]{../imgs/swagger 6.jpg}
+    \caption{API Endpoints for Subjects and Semesters details}
+\end{figure}
+
+\subsection{Teacher API Endpoints}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.99\textwidth]{../imgs/swagger 7.jpg}
+    \caption{API Endpoints for Teacher details}
+\end{figure}
+
+\subsection{Lecture API Endpoints}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.99\textwidth]{../imgs/swagger 8.jpg}
+    \caption{API Endpoints for Lecture details}
+
+\end{figure}
+
+\section{Model Training}
+
+\subsection{Code Snippet for face recognition using LBPH}
+\begin{lstlisting}[language=Python]
+import os
+import cv2
+import numpy as np
+from sklearn.metrics import classification_report
+
+base_path = "   "
+image_size = (100, 100)
+
+def load_images(folder, label, max_images=None):
+    images = []
+    labels = []
+    for i, filename in enumerate(os.listdir(folder)):
+        if max_images and i >= max_images:
+            break
+        img_path = os.path.join(folder, filename)
+        img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
+        if img is not None:
+            img = cv2.resize(img, image_size)
+            images.append(img)
+            labels.append(label)
+    return images, labels
+
+def train_individual_models(base_path):
+    person_dirs = [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]
+    for person in person_dirs:
+        print(f"\nTraining model for: {person}")
+        
+        # Positive samples (label = 1)
+        pos_train_dir = os.path.join(base_path, person, 'train')
+        pos_test_dir = os.path.join(base_path, person, 'test')
+        pos_train_imgs, pos_train_labels = load_images(pos_train_dir, label=1)
+        pos_test_imgs, pos_test_labels = load_images(pos_test_dir, label=1)
+
+        # Negative samples (label = 0) from other people's train dirs
+        neg_train_imgs = []
+        neg_train_labels = []
+        neg_test_imgs = []
+        neg_test_labels = []
+        for other_person in person_dirs:
+            if other_person == person:
+                continue
+            other_train_dir = os.path.join(base_path, other_person, 'train')
+            other_test_dir = os.path.join(base_path, other_person, 'test')
+            imgs, labels = load_images(other_train_dir, label=0, max_images=len(pos_train_imgs)//(len(person_dirs)-1))
+            neg_train_imgs += imgs
+            neg_train_labels += labels
+            imgs, labels = load_images(other_test_dir, label=0, max_images=len(pos_test_imgs)//(len(person_dirs)-1))
+            neg_test_imgs += imgs
+            neg_test_labels += labels
+
+        # Combine positives and negatives
+        X_train = pos_train_imgs + neg_train_imgs
+        y_train = pos_train_labels + neg_train_labels
+        X_test = pos_test_imgs + neg_test_imgs
+        y_test = pos_test_labels + neg_test_labels
+
+        # Train LBPH model
+        model = cv2.face.LBPHFaceRecognizer_create()
+        model.train(X_train, np.array(y_train))
+
+        # Evaluate
+        predictions = []
+        for face in X_test:
+            label_pred, _ = model.predict(face)
+            predictions.append(label_pred)
+
+        print(classification_report(y_test, predictions, target_names=["Other", person]))
+
+train_individual_models(base_path)
+\end{lstlisting}
+\subsection{Code Snippet for face recognition using face\_net}
+\begin{lstlisting}[language=Python]
+import os
+import torch
+import numpy as np
+from PIL import Image
+from tqdm import tqdm
+from torchvision import transforms
+from facenet_pytorch import InceptionResnetV1, MTCNN
+from sklearn.metrics.pairwise import cosine_similarity
+
+# Device config
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# Load FaceNet model
+model = InceptionResnetV1(pretrained='vggface2').eval().to(device)
+
+# MTCNN for face detection
+mtcnn = MTCNN(image_size=160, margin=0, min_face_size=20, keep_all=False, device=device)
+
+# Define dataset path
+dataset_path = 'comprehensive_db\\comprehensive_db'
+
+# Function to extract embeddings
+def get_embedding(img_path):
+    img = Image.open(img_path).convert('RGB')
+    face = mtcnn(img)
+    if face is not None:
+        face_embedding = model(face.unsqueeze(0).to(device))
+        return face_embedding.detach().cpu().numpy()[0]
+    else:
+        return None
+
+# Step 1: Prepare reference embeddings from training data
+reference_embeddings = {}  # person -> list of embeddings
+
+print("\nCreating reference embeddings from train data...")
+for person in os.listdir(dataset_path):
+    person_train_path = os.path.join(dataset_path, person, 'train')
+    embeddings = []
+    for img_name in os.listdir(person_train_path):
+        img_path = os.path.join(person_train_path, img_name)
+        emb = get_embedding(img_path)
+        if emb is not None:
+            embeddings.append(emb)
+    if embeddings:
+        reference_embeddings[person] = np.mean(embeddings, axis=0)  # Mean embedding
+
+# Step 2: Evaluate on test data
+print("\nEvaluating on test data...")
+correct = 0
+total = 0
+
+for person in os.listdir(dataset_path):
+    person_test_path = os.path.join(dataset_path, person, 'test')
+    for img_name in os.listdir(person_test_path):
+        img_path = os.path.join(person_test_path, img_name)
+        test_emb = get_embedding(img_path)
+        if test_emb is None:
+            continue
+
+        # Compare with reference embeddings
+        similarities = {}
+        for ref_person, ref_emb in reference_embeddings.items():
+            sim = cosine_similarity([test_emb], [ref_emb])[0][0]
+            similarities[ref_person] = sim
+
+        predicted_person = max(similarities, key=similarities.get)
+        if predicted_person == person:
+            correct += 1
+        total += 1
+
+accuracy = correct / total if total > 0 else 0
+print(f"\n FaceNet Recognition Accuracy: {accuracy:.2f} ({correct}/{total})")
+
+\end{lstlisting}
+\subsection{Code Snippet for face recognition using res\_net}
+\begin{lstlisting}[language=Python]
+
+from torchvision import models
+from torch.utils.data import DataLoader
+import torch.nn as nn
+import torch
+import torch.optim as optim
+
+# Paths
+train_data_path = 'comprehensive_db\\comprehensive_db'
+
+# Transforms
+transform = transforms.Compose([
+    transforms.Resize((224, 224)),
+    transforms.ToTensor(),
+    transforms.Normalize([0.5]*3, [0.5]*3)
+])
+
+# Load dataset
+train_dataset = FaceTrainDataset(train_data_path, transform=transform)
+train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
+
+# Model setup
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model = models.resnet50(pretrained=True)
+
+# Replace the classifier for num_classes
+num_classes = len(train_dataset.class_to_idx)
+model.fc = nn.Linear(model.fc.in_features, num_classes)
+model.to(device)
+
+# Loss and optimizer
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model.parameters(), lr=0.0001)
+
+# Training loop
+num_epochs = 5
+for epoch in range(num_epochs):
+    model.train()
+    total_loss = 0
+    correct = 0
+    total = 0
+    for images, labels in train_loader:
+        images = images.to(device)
+        labels = labels.to(device)
+
+        outputs = model(images)
+        loss = criterion(outputs, labels)
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+
+        total_loss += loss.item()
+        _, predicted = torch.max(outputs, 1)
+        correct += (predicted == labels).sum().item()
+        total += labels.size(0)
+
+    acc = 100 * correct / total
+    print(f"Epoch [{epoch+1}/{num_epochs}] - Loss: {total_loss:.4f}, Accuracy: {acc:.2f}%")
+
+# Save model
+torch.save(model.state_dict(), "resnet50_face_recognizer.pth")
+\end{lstlisting}
+
+\chapter{Performance Evaluation and Testing}
+\section{Evaluation Metrics}
+
+\begin{enumerate}
+    \item Accuracy: The percentage of correctly identified faces out of the total number of faces.
+    \item Precision: The percentage of correctly identified faces out of the total number of faces identified.
+    \item Recall: The percentage of correctly identified faces out of the total number of faces in the dataset.
+    \item F1 Score: The harmonic mean of precision and recall, which provides a balanced measure of accuracy.
+\end{enumerate}
+
+
+\section{Testing Methodology}
+\begin{enumerate}
+    \item Dataset Preparation: The dataset was divided into training and testing sets, with 80\% of the images used for training and 20\% for testing.
+    \item Model Training: The face recognition model was trained using the training set, and the parameters were optimized for better accuracy.
+    \item Model Testing: The trained model was tested using the testing set, and the evaluation metrics were calculated based on the results.
+    \item Performance Comparison: The performance of different face recognition algorithms was compared based on the evaluation metrics.
+\end{enumerate}
+
+\section{Testing and Training Dataset}
+
 
 \subsubsection{Manually Segregated photos for 5 people and labelled them}
 \begin{figure}[H]
@@ -499,46 +914,6 @@ Results of the above code are shown in the figure below. The images are cropped 
     \caption{Abhijeet's Segregated Images}
 \end{figure}
 
-
-\subsection{Preliminary Results}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.95\textwidth]{../imgs/face rec results cropped.jpg}
-    \caption{Results identifying 3 of the 4 faces. Empirical results show that the model is working, with accuracy of around 75 \%}
-\end{figure}
-
-\subsection{Accuracy per Persion (Class) - LBPH Face Recognizer}
-\subsubsection{LBPH Face Recognizer code}
-\lstset{language=Python, basicstyle=\ttfamily\small, numbers=left}
-\lstinputlisting{../code/Module.py}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.95\textwidth]{../imgs/accuracy per person.jpg}
-    \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
-\end{figure}
-
-\chapter{Performance Evaluation and Testing}
-\section{Evaluation Metrics}
-
-\begin{enumerate}
-    \item Accuracy: The percentage of correctly identified faces out of the total number of faces.
-    \item Precision: The percentage of correctly identified faces out of the total number of faces identified.
-    \item Recall: The percentage of correctly identified faces out of the total number of faces in the dataset.
-    \item F1 Score: The harmonic mean of precision and recall, which provides a balanced measure of accuracy.
-\end{enumerate}
-
-
-\section{Testing Methodology}
-\begin{enumerate}
-    \item Dataset Preparation: The dataset was divided into training and testing sets, with 80\% of the images used for training and 20\% for testing.
-    \item Model Training: The face recognition model was trained using the training set, and the parameters were optimized for better accuracy.
-    \item Model Testing: The trained model was tested using the testing set, and the evaluation metrics were calculated based on the results.
-    \item Performance Comparison: The performance of different face recognition algorithms was compared based on the evaluation metrics.
-\end{enumerate}
-
-\section{Testing and Training Dataset}
-
-put images here. 
 
 \chapter{Deployment Strategies}
 
@@ -703,14 +1078,13 @@ Graphs showing the accuracy of each person in the dataset. The results indicate 
     \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
 \end{figure}
 
-\section{Final Comparison}
-
+\section{Final Comparison} 
 \chapter{Applications}
 
 \section{Educational Institutions}
 \begin{itemize}
     \item \textbf{Automated Attendance Tracking:} The app can be used in schools, colleges, and universities to automate attendance marking, reducing manual errors and saving time.
-    \item \textbf{Classroom Analytics:} Provides insights into student attendance trends, helping educators identify patterns of absenteeism and take corrective actions.
+    \item \textbf{Classroom Analytics:} Provides insights into Lectures attendance trends, helping educators identify patterns of absenteeism and take corrective actions.
     \item \textbf{Examination Monitoring:} Ensures only authorized students are present during exams by verifying their identity through facial recognition.
 \end{itemize}
 
@@ -847,16 +1221,6 @@ By pursuing these directions—grounded in our core implementation and the compa
 
 % appendix
 \appendix
-
-\chapter{Code Snippet for Dataset Creation}
-
-\chapter{Code Snippet for Dataset Creation}
-
-\chapter{Code Snippet for face recognition using LBPH}
-
-\chapter{Code Snippet for face recognition using face\_recognition}
-
-\chapter{Dataset Samples}
 
 \chapter{Publication Details}
 

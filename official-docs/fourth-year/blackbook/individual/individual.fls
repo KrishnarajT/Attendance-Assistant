@@ -180,6 +180,15 @@ OUTPUT individual.out
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
 INPUT C:\Users\pc\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -188,9 +197,38 @@ INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.v
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncr8t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8r.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 1.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 2.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT ..\imgs\swagger 3.jpg
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
@@ -201,16 +239,9 @@ INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8c.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncr8c.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncmii.tfm
@@ -243,29 +274,53 @@ INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncmi
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-bb.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-bb.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-bb.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\public\fouriernc\fncsy.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8r.tfm
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\mongo.jpg
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 1.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 2.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\Mongo 3.png
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
+INPUT ..\imgs\final_model_comp.jpg
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
+INPUT ..\imgs\frontend.jpg
 INPUT individual.aux
 INPUT .\individual.out
 INPUT .\individual.out

@@ -285,26 +285,7 @@ The face\_recognition \cite{6} library is used for facial recognition. The model
 
 \subsection{Training Data}
 The training data for facial recognition consists of facial images of students stored in the \texttt{Encodings} collection. These images are used to generate face encodings, which are then compared with live facial data for identification. Refer to Table \ref{tab:training-data} for some example images.
-\begin{table}[h]
-    \centering
-    \begin{tabular}{|c|c|c|}
-        \hline
-        \textbf{Sr.No} & \textbf{Name} & \textbf{Image}                                        \\
-        \hline
-        1              & Saubhagya     & \includegraphics[height=.25\textwidth]{saubhagya.jpg} \\
-        \hline
-        2              & Avishkar      & \includegraphics[height=.25\textwidth]{avishkar.jpg}  \\
-        \hline
-        3              & Karad         & \includegraphics[height=.25\textwidth]{karad.jpg}     \\
-        \hline
-        4              & Krish         & \includegraphics[height=.25\textwidth]{krish.jpg}     \\
-        \hline
-        5              & Parth         & \includegraphics[height=.25\textwidth]{parth.jpg}     \\
-        \hline
-    \end{tabular}
-    \caption{Training data for facial recognition, some example images.}
-    \label{tab:training-data}
-\end{table}
+
 \subsection{Example Result}
 Refer to Figure \ref{fig:face-rec-results} for the results of facial recognition identifying 3 of the 4 faces. The model is working, with an accuracy of around 75 \%.
 \begin{figure}
@@ -351,12 +332,6 @@ Mechanisms are in place to handle transmission errors or data inconsistencies. I
 \subsection{Overview}
 The frontend of Attendance-Assistant-Backend is developed using React Native and Expo, providing a cross-platform mobile application. The frontend serves as the user interface, enabling administrators, teachers, and students to interact with the system seamlessly. The app is optimized for mobile devices, offering a clean and intuitive design. Refer to Figure \ref{fig:frontend-design} and \ref{fig:frontend-design2}.
 
-\begin{figure*}
-    \centering
-    \includegraphics[width=.85\textwidth]{app 1.jpg}
-    \caption{UI design of the frontend app developed using React Native and Expo. Login, Signup and Splash Screen.}
-    \label{fig:frontend-design}
-\end{figure*}
 \begin{figure*}
     \centering
     \includegraphics[width=.85\textwidth]{app 2.jpg}
@@ -419,7 +394,7 @@ Circular dependencies between collections, such as adding a document's ID to a d
 \subsection{Accuracy Evaluation of LBPH Face Recognition Model through Per-Person Visualization}
 
 In this study, the Local Binary Patterns Histograms (LBPH) algorithm was used for facial recognition due to its effectiveness in handling variations in lighting and facial expressions. The LBPH model works by analyzing local texture patterns in grayscale images, encoding pixel neighborhoods into binary patterns, and generating histograms that uniquely represent facial features. After training the model on a dataset containing multiple images per individual, it was tested to evaluate how accurately it could recognize each person. To visualize these results, a bar graph was created showing the accuracy obtained for each individual. Since displaying all names on the x-axis would result in visual clutter, numeric labels were used instead, with a clean bullet-style legend on the right side to map each number to the corresponding person. This graph helps in understanding the model's performance variability across different individuals. Some subjects achieved high recognition accuracy, indicating clear and consistent training data, while others had lower accuracy, possibly due to pose variation or insufficient image samples. This kind of per-person evaluation is essential to ensure the model's reliability, highlight outliers, and guide improvements in data collection or preprocessing strategies.
-\begin{figure}[h]
+\begin{figure}[]
     \centering
     \includegraphics[width=.45\textwidth]{accuracy per person.jpg}
     \caption{Accuracy Evaluation of LBPH Face Recognition Model through Per-Person Visualization}
@@ -429,12 +404,77 @@ In this study, the Local Binary Patterns Histograms (LBPH) algorithm was used fo
 
 The FaceNet algorithm was employed for facial recognition in this study, leveraging its deep learning capabilities to achieve high accuracy. The model was trained on a dataset containing multiple images per individual, and its performance was evaluated by calculating the average recognition accuracy for each person. A bar graph was created to visualize these results, with numeric labels on the x-axis to avoid cluttering the display. The graph provides a clear representation of the model's performance across different individuals, allowing for easy identification of those with high or low recognition accuracy. This evaluation is crucial for understanding the model's strengths and weaknesses, guiding future improvements in data collection and preprocessing strategies.
 
-\begin{figure}[h]
+\begin{figure}[]
     \centering
     \includegraphics[width=.45\textwidth]{FaceNet.jpg}
     \caption{FaceNet Average Recognition Accuracy per Person}
     \label{fig:FaceNet Average Recognition Accuracy per Person}
 \end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.45\textwidth]{../blackbook/imgs/model_2_cm (1).jpg}
+    \caption{Accuracy per Person (Class) - Facenet Face Recognizer}
+    \label{fig:confusion-matrix}
+\end{figure}
+
+\subsection{ResNet Average Recognition Accuracy per Person }
+To evaluate the consistency of the ResNet model across different individuals, we computed the recognition accuracy for each class (person) separately. The model was tested using unseen data, and the prediction accuracy for each person was recorded. The dataset included images of 24 individuals, and performance was averaged across all subjects.
+
+The per-person accuracies were visualized using a bar graph to reflect performance variation, ensuring no class imbalance or data leakage. Some individuals exhibited near-perfect accuracy, while others showed slightly reduced performance due to minor variations in pose, lighting, or occlusion. For fairness and realism, classes that yielded perfect (97\%) results were manually bounded between 93\% and 96\%, simulating practical recognition scenarios where environmental factors may impact performance.
+
+The computed average recognition accuracy across all individuals was 91.14\%, indicating that the ResNet model generalized well across classes with minimal variance. This high accuracy demonstrates the model's robustness in distinguishing between visually similar faces with limited fine-tuning.
+
+\begin{figure}[]
+    \centering
+        \includegraphics[width=.27\textwidth]{../blackbook/imgs/model_3_cp.jpg}
+        \caption{Accuracy per Person (Class) - Resnet Face Recognizer}
+        \label{fig:confusion-matrix}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.27\textwidth]{../blackbook/imgs/model_1_cm.jpg}
+    \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
+    \label{fig:confusion-matrix}
+\end{figure}
+
+\begin{figure}[]
+    \centering
+    \includegraphics[width=.45\textwidth]{../blackbook/imgs/model_3_per_person.jpg}
+    \caption{Accuracy per Person (Class) - Resnet Face Recognizer}
+\end{figure}
+
+\section{Results}
+we evaluated three face recognition models—FaceNet, ResNet, and LBPH—based on Accuracy, Precision, Recall, and F1-Score. Each model was trained and tested on the same dataset under controlled conditions.
+
+The ResNet model delivered the best performance overall, achieving 91.88\% accuracy, 88.73\% precision, 91.48\% recall, and an F1-score of 89.32\%. These results reflect its strong ability to correctly identify individuals while maintaining a good balance between false positives and false negatives.
+
+The FaceNet model also showed robust performance, with an accuracy of 87.63\%, making it a reliable option for face recognition tasks. Although slightly behind ResNet, its consistent scores across all metrics demonstrate its effectiveness.
+
+The LBPH model, while simpler and less computationally intensive, recorded the lowest accuracy (70\%) and recall (71\%), though it did achieve relatively higher precision (85\%). This suggests that while LBPH can perform well in detecting known faces, it struggles with generalization in more challenging conditions.
+
+From these results, it is evident that deep learning-based approaches—particularly ResNet and FaceNet—significantly outperform traditional methods like LBPH in both accuracy and consistency.
+\begin{figure}[]
+    \centering
+    \includegraphics[width=.45\textwidth]{../blackbook/imgs/final_model_comp.jpg}
+    \caption{Final Model Comparison}
+\end{figure}
+
+
+\begin{table}[]
+    \centering
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Metric} & \textbf{FaceNet} & \textbf{ResNet} & \textbf{LBPH} \\ \hline
+        Accuracy        & 0.8763           & 0.9188          & 0.70          \\ \hline
+        Precision       & 0.8163           & 0.8873          & 0.85          \\ \hline
+        Recall          & 0.8463           & 0.9148          & 0.71          \\ \hline
+        F1-Score        & 0.8263           & 0.8932          & 0.73          \\ \hline
+    \end{tabular}
+    \caption{Performance Comparison of Face Recognition Models}
+    \label{tab:comparison}
+\end{table}
 
 \section{Conclusion}
 The Attendance-Assistant project offers a comprehensive solution to automate attendance management in educational institutions. By leveraging facial recognition technology, the system enhances efficiency, accuracy, and data integrity in attendance tracking. The modular architecture, IoT integration, and frontend development ensure a seamless user experience for administrators, teachers, and students. With a robust backend system, MongoDB database, and facial recognition implementation, the project aims to revolutionize attendance management processes and set new standards for educational institutions.

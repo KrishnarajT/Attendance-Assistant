@@ -171,50 +171,6 @@ INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr7t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT .\saubhagya.jpg
-INPUT .\saubhagya.jpg
-INPUT .\saubhagya.jpg
-INPUT .\saubhagya.jpg
-INPUT .\saubhagya.jpg
-INPUT .\saubhagya.jpg
-INPUT .\saubhagya.jpg
-INPUT .\avishkar.jpg
-INPUT .\avishkar.jpg
-INPUT .\avishkar.jpg
-INPUT .\avishkar.jpg
-INPUT .\avishkar.jpg
-INPUT .\avishkar.jpg
-INPUT .\avishkar.jpg
-INPUT .\karad.jpg
-INPUT .\karad.jpg
-INPUT .\karad.jpg
-INPUT .\karad.jpg
-INPUT .\karad.jpg
-INPUT .\karad.jpg
-INPUT .\karad.jpg
-INPUT .\krish.jpg
-INPUT .\krish.jpg
-INPUT .\krish.jpg
-INPUT .\krish.jpg
-INPUT .\krish.jpg
-INPUT .\krish.jpg
-INPUT .\krish.jpg
-INPUT .\parth.jpg
-INPUT .\parth.jpg
-INPUT .\parth.jpg
-INPUT .\parth.jpg
-INPUT .\parth.jpg
-INPUT .\parth.jpg
-INPUT .\parth.jpg
 INPUT .\face rec results cropped.jpg
 INPUT .\face rec results cropped.jpg
 INPUT .\face rec results cropped.jpg
@@ -226,13 +182,6 @@ INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\courier\pcrr7t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
-INPUT .\app 1.jpg
 INPUT .\app 2.jpg
 INPUT .\app 2.jpg
 INPUT .\app 2.jpg
@@ -254,9 +203,53 @@ INPUT .\FaceNet.jpg
 INPUT .\FaceNet.jpg
 INPUT .\FaceNet.jpg
 INPUT .\FaceNet.jpg
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT ..\blackbook\imgs\model_2_cm (1).jpg
+INPUT ..\blackbook\imgs\model_2_cm (1).jpg
+INPUT ..\blackbook\imgs\model_2_cm (1).jpg
+INPUT ..\blackbook\imgs\model_2_cm (1).jpg
+INPUT ..\blackbook\imgs\model_2_cm (1).jpg
+INPUT ..\blackbook\imgs\model_2_cm (1).jpg
+INPUT ..\blackbook\imgs\model_2_cm (1).jpg
+INPUT ..\blackbook\imgs\model_3_cp.jpg
+INPUT ..\blackbook\imgs\model_3_cp.jpg
+INPUT ..\blackbook\imgs\model_3_cp.jpg
+INPUT ..\blackbook\imgs\model_3_cp.jpg
+INPUT ..\blackbook\imgs\model_3_cp.jpg
+INPUT ..\blackbook\imgs\model_3_cp.jpg
+INPUT ..\blackbook\imgs\model_3_cp.jpg
+INPUT ..\blackbook\imgs\model_1_cm.jpg
+INPUT ..\blackbook\imgs\model_1_cm.jpg
+INPUT ..\blackbook\imgs\model_1_cm.jpg
+INPUT ..\blackbook\imgs\model_1_cm.jpg
+INPUT ..\blackbook\imgs\model_1_cm.jpg
+INPUT ..\blackbook\imgs\model_1_cm.jpg
+INPUT ..\blackbook\imgs\model_1_cm.jpg
+INPUT ..\blackbook\imgs\model_3_per_person.jpg
+INPUT ..\blackbook\imgs\model_3_per_person.jpg
+INPUT ..\blackbook\imgs\model_3_per_person.jpg
+INPUT ..\blackbook\imgs\model_3_per_person.jpg
+INPUT ..\blackbook\imgs\model_3_per_person.jpg
+INPUT ..\blackbook\imgs\model_3_per_person.jpg
+INPUT ..\blackbook\imgs\model_3_per_person.jpg
+INPUT ..\blackbook\imgs\final_model_comp.jpg
+INPUT ..\blackbook\imgs\final_model_comp.jpg
+INPUT ..\blackbook\imgs\final_model_comp.jpg
+INPUT ..\blackbook\imgs\final_model_comp.jpg
+INPUT ..\blackbook\imgs\final_model_comp.jpg
+INPUT ..\blackbook\imgs\final_model_comp.jpg
+INPUT ..\blackbook\imgs\final_model_comp.jpg
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT Paper.aux
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb

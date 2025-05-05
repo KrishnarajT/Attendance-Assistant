@@ -308,36 +308,338 @@ Author:  \textit{Schenkel, T., Ringhage, O. and Branding, N.} \cite{11}
 
 \chapter{Problem Statement}
 
+Manual attendance tracking at MITWPU Campus is a time-consuming process prone to inefficiencies and potential malpractices. The current system lacks automation, leading to increased per-class time spent on attendance management.
+	\vspace*{0.5cm}
+	To address these challenges, there is a need for the development of an Automated Attendance Tracking System. The solution should leverage computer vision for accurate data capture, utilize cloud infrastructure for efficient storage and processing, and incorporate advanced data science techniques for analytics.
+
+	\vspace*{0.5cm}
+	The system should be user-friendly, providing both teachers and students with a seamless experience while ensuring security and tamper resistance to mitigate the risk of malpractices in attendance tracking. The goal is to enhance overall efficiency and significantly reduce the manual effort involved in attendance monitoring.
+
 \section{Project Scope}
+
+The scope of the project includes the following key components:
+
+\begin{enumerate}
+    \item Development of a mobile application using Flutter for user interaction and attendance management.
+    \item Implementation of a backend system using FastAPI for handling API requests and data processing.
+    \item Integration of a cloud database (MongoDB) for secure and scalable data storage.
+    \item Utilization of computer vision techniques for real-time face recognition and attendance marking.
+\end{enumerate}
+
 \section{Project Assumptions}
+
+\begin{enumerate}
+    \item The system will be used in a controlled environment, such as a classroom or lecture hall, where the lighting and camera angles are optimal for face recognition.
+    \item Users will have access to the necessary hardware and software components required for the system to function effectively.
+    \item The system will be used primarily for attendance tracking purposes and not for any other applications.
+    \item Users will have basic knowledge of using mobile applications and web interfaces.
+    \item The system will comply with relevant data privacy regulations and guidelines.
+    
+\end{enumerate}
 \section{Project Limitations}
+
+\begin{enumerate}
+    \item Privacy Concerns: Face recognition technology raises privacy concerns due to its potential for misuse and abuse.
+    \item Security Risks: Face recognition systems can be vulnerable to attacks, such as spoofing and impersonation, which can compromise security.
+    \item Bias and Discrimination: Face recognition systems can be biased and discriminatory, leading to inaccurate and unfair results.
+    \item Legal and Ethical Issues: Face recognition technology raises legal and ethical issues related to data privacy, consent, and surveillance.
+    \item Technical Limitations: Face recognition technology has technical limitations, such as sensitivity to variations in lighting, pose, and occlusions, which can affect accuracy and reliability.\item
+\end{enumerate}
 \section{Project Objectives}
 
+\begin{enumerate}
+    \item Develop an automated attendance tracking system using computer vision for any organization
+    \item Utilize cloud infrastructure for efficient storage and processing of attendance data.
+    \item Create a user-friendly application for both teachers and students to simplify attendance management.
+    \item Implement advanced data science techniques for processing large attendance datasets and performing analytics.
+    \item Significantly reduce per-class time spent on attendance tracking through automated processes, enhancing overall efficiency.
+    \item Mitigate the risk of malpractices in attendance tracking by implementing secure and tamper-resistant mechanisms.
+\end{enumerate}
 \chapter{Project Requirements}
 
-\section{Resources}
-\subsection{Human Resources}
-\subsection{Reusable Software Components}
 \section{Requirements}
-\subsection{Software and Hardware Requirements}
+\subsection{Hardware Requirements}
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|p{8cm}|r|}
+    \hline
+    \textbf{Name} & \textbf{Purpose} & \textbf{Cost (INR)} \\
+    \hline
+    Raspberry Pi Hi Quality Camera & Official camera from Raspberry Pi, more expensive for high resolution. & 8000 \\
+    \hline
+    Raspberry Pi Camera Module 3 & Official camera from Raspberry Pi, cheaper and highest resolution for cheapest cost. & 3000 \\
+    \hline
+    Raspberry Pi 4 Model B with 2 GB RAM & To send image from camera to server. & 5000 \\
+    \hline
+    \end{tabular}
+    \caption{List of Hardware Requirements}
+    \label{tab:hardware_requirements}
+\end{table}
+\subsection{Software Requirements}
+
+\begin{enumerate}
+    \item Amazon S3
+\item Amazon EC2
+\item Amazon DynamoDB
+\item Raspian OS
+\item Python Libraries
+
+\end{enumerate}
+
+\begin{lstlisting}
+annotated-types==0.6.0
+anyio==4.2.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+arrow==1.3.0
+asttokens==2.4.1
+async-lru==2.0.4
+attrs==23.2.0
+Babel==2.14.0
+beautifulsoup4==4.12.3
+bleach==6.1.0
+CacheControl==0.14.0
+cachetools==5.3.2
+certifi==2024.2.2
+cffi==1.16.0
+charset-normalizer==3.3.2
+click==8.1.7
+colorama==0.4.6
+comm==0.2.1
+contourpy==1.2.0
+cryptography==42.0.5
+cycler==0.12.1
+debugpy==1.8.1
+decorator==5.1.1
+defusedxml==0.7.1
+dlib==19.24.2
+dnspython==2.6.1
+exceptiongroup==1.2.0
+executing==2.0.1
+face-recognition==1.3.0
+face_recognition_models==0.3.0
+fastapi==0.109.2
+fastjsonschema==2.19.1
+firebase-admin==6.4.0
+fonttools==4.49.0
+fqdn==1.5.1
+gcloud==0.18.3
+google-api-core==2.17.1
+google-api-python-client==2.119.0
+google-auth==2.28.1
+google-auth-httplib2==0.2.0
+google-cloud-core==2.4.1
+google-cloud-firestore==2.15.0
+google-cloud-storage==2.14.0
+google-crc32c==1.5.0
+google-resumable-media==2.7.0
+googleapis-common-protos==1.62.0
+grpcio==1.62.0
+grpcio-status==1.62.0
+h11==0.14.0
+httpcore==1.0.4
+httplib2==0.22.0
+httpx==0.27.0
+idna==3.6
+ipykernel==6.29.2
+ipython==8.21.0
+ipywidgets==8.1.2
+isoduration==20.11.0
+jedi==0.19.1
+Jinja2==3.1.3
+json5==0.9.17
+jsonpointer==2.4
+jsonschema==4.21.1
+jsonschema-specifications==2023.12.1
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.9.0
+jupyter-lsp==2.2.2
+jupyter_client==8.6.0
+jupyter_core==5.7.1
+jupyter_server==2.12.5
+jupyter_server_terminals==0.5.2
+jupyterlab==4.1.2
+jupyterlab_pygments==0.3.0
+jupyterlab_server==2.25.3
+jupyterlab_widgets==3.0.10
+jwcrypto==1.5.4
+kiwisolver==1.4.5
+MarkupSafe==2.1.5
+matplotlib==3.8.3
+matplotlib-inline==0.1.6
+mistune==3.0.2
+msgpack==1.0.7
+nbclient==0.9.0
+nbconvert==7.16.1
+nbformat==5.9.2
+nest-asyncio==1.6.0
+notebook==7.1.0
+notebook_shim==0.2.4
+numpy==1.26.4
+oauth2client==4.1.3
+opencv-python==4.9.0.80
+overrides==7.7.0
+packaging==23.2
+pandocfilters==1.5.1
+parso==0.8.3
+pillow==10.2.0
+pipdeptree==2.16.0
+platformdirs==4.2.0
+prometheus_client==0.20.0
+prompt-toolkit==3.0.43
+proto-plus==1.23.0
+protobuf==4.25.3
+psutil==5.9.8
+pure-eval==0.2.2
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pycparser==2.21
+pycryptodome==3.20.0
+pydantic==2.5.3
+pydantic_core==2.14.6
+Pygments==2.17.2
+PyJWT==2.8.0
+pymongo==4.6.2
+pyparsing==3.1.1
+python-dateutil==2.8.2
+python-dotenv==1.0.1
+python-json-logger==2.0.7
+python-jwt==4.1.0
+python-multipart==0.0.9
+pywin32==306
+pywinpty==2.0.12
+PyYAML==6.0.1
+pyzmq==25.1.2
+qtconsole==5.5.1
+QtPy==2.4.1
+referencing==0.33.0
+requests==2.29.0
+requests-toolbelt==0.10.1
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rpds-py==0.18.0
+rsa==4.9
+Send2Trash==1.8.2
+services==0.1.1
+six==1.16.0
+sniffio==1.3.0
+soupsieve==2.5
+stack-data==0.6.3
+starlette==0.37.1
+terminado==0.18.0
+tinycss2==1.2.1
+tomli==2.0.1
+tornado==6.4
+traitlets==5.14.1
+types-python-dateutil==2.8.19.20240106
+typing_extensions==4.9.0
+uri-template==1.3.0
+uritemplate==4.1.1
+urllib3==1.26.18
+uvicorn==0.27.0
+wcwidth==0.2.13
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.7.0
+widgetsnbextension==4.0.10
+
+\end{lstlisting}
+
 \section{Risk Management}
+\begin{enumerate}
+    \item \textbf{Technical Risks}: The project may face technical challenges related to the integration of various components, such as the mobile application, backend, and cloud services. To mitigate this risk, thorough testing and validation will be conducted at each stage of development.
+    \item \textbf{Data Privacy Risks}: The use of face recognition technology raises concerns about data privacy and security. To address this, the system will comply with relevant data protection regulations and implement secure data storage and transmission practices.
+    \item \textbf{User Acceptance Risks}: Users may be resistant to adopting the new system due to concerns about privacy or usability. To mitigate this risk, user training and support will be provided, along with clear communication about the benefits of the system.
+    \item \textbf{Performance Risks}: The system may not perform as expected under high load or in real-world conditions. To address this, performance testing will be conducted to ensure the system can handle the expected number of users and data volume.
+    \item \textbf{Regulatory Risks}: Changes in regulations related to data privacy and face recognition technology may impact the project. To mitigate this risk, the project team will stay informed about relevant regulations and adapt the system as needed to ensure compliance.
+\end{enumerate}
 \section{Functional Specifications}
 \subsection{Interfaces}
-\subsubsection{External Interfaces Required}
-\subsubsection{Internal Interfaces Required}
-\subsubsection{Communication Interfaces}
-\subsubsection{Graphical User Interfaces}
 
+\subsubsection{External Interfaces Required}
+\begin{enumerate}
+    \item \textbf{User Interface}: The mobile application will have a user-friendly interface for students and teachers to interact with the system. It will include features for face capture, attendance marking, and viewing attendance history.
+    \item \textbf{Camera Interface}: The system will utilize the camera on the mobile device or an external camera (e.g., Raspberry Pi camera) for face capture. The camera will be integrated with the mobile application to capture images for face recognition.
+    \item \textbf{Cloud Storage}: The system will use cloud storage (e.g., AWS S3) for storing images and other media files. The backend will handle the upload and retrieval of these files.
+    \item \textbf{Database Interface}: The system will connect to a cloud database (e.g., MongoDB Atlas) for storing user data, face encodings, and attendance records. The backend will interact with the database to perform CRUD operations.
+    \item \textbf{IoT Device Interface}: If IoT devices (e.g., Raspberry Pi) are used for real-time face recognition, they will communicate with the backend via HTTP requests to send captured images and receive attendance updates.
+\end{enumerate}
+\subsubsection{Internal Interfaces Required}
+\begin{enumerate}
+    \item \textbf{Frontend}: The mobile application will be developed using Flutter, which will communicate with the backend via RESTful APIs. The frontend will handle user authentication, face capture, and attendance display.
+    \item \textbf{Backend}: The backend will be developed using FastAPI, which will handle API requests from the frontend. It will also manage face encoding and attendance logging. The backend will connect to the MongoDB database for data storage and retrieval.
+    \item \textbf{Database}: The MongoDB database will store user data, face encodings, and attendance records. The backend will interact with the database to perform CRUD operations.
+\end{enumerate}
+\subsubsection{Communication Interfaces}
+\begin{enumerate}
+    \item \textbf{REST API}: The system will use RESTful APIs for communication between the frontend and backend components. The APIs will handle requests for user authentication, face encoding, and attendance logging.
+    \item \textbf{Database Connection}: The backend will connect to the MongoDB database using a secure connection string. The database will store user data, face encodings, and attendance records.
+    \item \textbf{Cloud Storage}: The system will use cloud storage (e.g., AWS S3) for storing images and other media files. The backend will handle the upload and retrieval of these files.
+    \item \textbf{IoT Device Communication}: If IoT devices (e.g., Raspberry Pi) are used for real-time face recognition, they will communicate with the backend via HTTP requests to send captured images and receive attendance updates.
+    \item \textbf{User Authentication}: The system will implement user authentication using JWT (JSON Web Tokens) for secure access to the APIs. Users will need to log in to access the attendance features.
+\end{enumerate}
+\subsubsection{Graphical User Interfaces}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/app 2.jpg}
+    \caption{App Design}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/app 3.jpg}
+    \caption{App Design}
+\end{figure}
 \subsection{Interactions}
 \subsubsection{Sustainability}
+\begin{enumerate}
+    \item The system will be designed to be scalable, allowing for easy addition of new features and functionalities in the future.
+    \item The use of cloud services will ensure that the system can handle increased data storage and processing requirements as the user base grows.
+    \item The system will be developed using modular architecture, making it easier to maintain and update individual components without affecting the entire system.
+    \item The project will follow best practices in software development, including version control, code reviews, and documentation, to ensure long-term maintainability.
+\end{enumerate}
 \subsubsection{Quality Management}
+\begin{enumerate}
+    \item The system will undergo rigorous testing, including unit tests, integration tests, and user acceptance tests, to ensure high quality and reliability.
+    \item The project will follow coding standards and best practices to maintain code quality and readability.
+    \item The system will implement error handling and logging mechanisms to identify and resolve issues quickly.
+    \item The project will include documentation for both developers and users, providing clear instructions on how to use and maintain the system.
+\end{enumerate}
 \subsubsection{Security}
+
+\begin{enumerate}
+    \item The system will implement secure user authentication using JWT (JSON Web Tokens) to protect user data and prevent unauthorized access.
+    \item All sensitive data, including user credentials and face encodings, will be encrypted before being stored in the database.
+    \item The system will use HTTPS for secure communication between the frontend and backend components, ensuring that data transmitted over the network is encrypted.
+    \item The project will follow best practices for data privacy and compliance with relevant regulations, such as GDPR, to protect user information.
+    \item The system will implement access controls to restrict access to sensitive data and functionalities based on user roles (e.g., admin, teacher, student).
+    \item The project will include regular security audits and vulnerability assessments to identify and address potential security risks.
+    \item The system will implement logging and monitoring mechanisms to track user activities and detect any suspicious behavior.
+\end{enumerate}
+
 
 \chapter{System Analysis Proposed Architecture}
 
 \section{Block Diagram}
-\section{System Architecture}
-\section{Modules of the Project}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.75\textwidth]{../imgs/block diagram.png}
+    \caption{Block Diagram}
+\end{figure}
+
+\section{Activity Diagram}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/activity 1.jpg}
+    \caption{Activity Diagram}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/activity 2.jpg}
+    \caption{Activity Diagram Continued}
+\end{figure}
 
 \chapter{Project Plan - Timeline}
 \begin{figure}[H]
@@ -435,15 +737,7 @@ Author:  \textit{Schenkel, T., Ringhage, O. and Branding, N.} \cite{11}
     \item Scalable: Face recognition technology can be easily scaled to accommodate large numbers of users, making it suitable for applications with a large user base.
     \item Versatile: Face recognition technology can be used for a wide range of applications, from access control to attendance tracking to surveillance.
 \end{enumerate}
-\section{Disadvantages}
 
-\begin{enumerate}
-    \item Privacy Concerns: Face recognition technology raises privacy concerns due to its potential for misuse and abuse.
-    \item Security Risks: Face recognition systems can be vulnerable to attacks, such as spoofing and impersonation, which can compromise security.
-    \item Bias and Discrimination: Face recognition systems can be biased and discriminatory, leading to inaccurate and unfair results.
-    \item Legal and Ethical Issues: Face recognition technology raises legal and ethical issues related to data privacy, consent, and surveillance.
-    \item Technical Limitations: Face recognition technology has technical limitations, such as sensitivity to variations in lighting, pose, and occlusions, which can affect accuracy and reliability.\item
-\end{enumerate}
 \section{Implementations}
 
 \subsection{Platform}
@@ -914,7 +1208,6 @@ torch.save(model.state_dict(), "resnet50_face_recognizer.pth")
     \caption{Abhijeet's Segregated Images}
 \end{figure}
 
-
 \chapter{Deployment Strategies}
 
 \section{Deployment Environment}
@@ -969,13 +1262,13 @@ torch.save(model.state_dict(), "resnet50_face_recognizer.pth")
             \hline
             \textbf{Metric} & \textbf{Value} \\ 
             \hline
-            Accuracy        & 85\%           \\ 
+            Accuracy        & 70\%           \\ 
             \hline
-            Precision       & 80\%           \\ 
+            Precision       & 85\%           \\ 
             \hline
-            Recall          & 75\%           \\ 
+            Recall          & 71\%           \\ 
             \hline
-            F1 Score        & 77.5\%         \\ 
+            F1 Score        & 73\%         \\ 
             \hline
         \end{tabular}
         \caption{Confusion Matrix of LBPH Face Recognizer}
@@ -984,7 +1277,7 @@ torch.save(model.state_dict(), "resnet50_face_recognizer.pth")
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../imgs/model_1_confusion_matrix.jpg}
+        \includegraphics[width=\textwidth]{../imgs/model_1_cm.jpg}
         \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
         \label{fig:confusion-matrix}
     \end{minipage}
@@ -994,7 +1287,7 @@ torch.save(model.state_dict(), "resnet50_face_recognizer.pth")
 Graphs showing the accuracy of each person in the dataset. The results indicate that the model performs well for most individuals, with some variations in accuracy based on the number of images available for training.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{../imgs/accuracy per person.jpg}
+    \includegraphics[width=.95\textwidth]{../imgs/model_1_per_person.jpg}
     \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
 \end{figure}
 
@@ -1009,23 +1302,23 @@ Graphs showing the accuracy of each person in the dataset. The results indicate 
             \hline
             \textbf{Metric} & \textbf{Value} \\ 
             \hline
-            Accuracy        & 85\%           \\ 
+            Accuracy        & 87.63\%           \\ 
             \hline
-            Precision       & 80\%           \\ 
+            Precision       & 81.63\%           \\ 
             \hline
-            Recall          & 75\%           \\ 
+            Recall          & 84.63\%           \\ 
             \hline
-            F1 Score        & 77.5\%         \\ 
+            F1 Score        & 82.63\%         \\ 
             \hline
         \end{tabular}
-        \caption{Confusion Matrix of LBPH Face Recognizer}
+        \caption{Confusion Matrix of Facenet Face Recognizer}
         \label{tab:confusion-metrics}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../imgs/model_1_confusion_matrix.jpg}
-        \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
+        \includegraphics[width=\textwidth]{../imgs/model_2_cm (1).jpg}
+        \caption{Accuracy per Person (Class) - Facenet Face Recognizer}
         \label{fig:confusion-matrix}
     \end{minipage}
 \end{figure}
@@ -1034,8 +1327,8 @@ Graphs showing the accuracy of each person in the dataset. The results indicate 
 Graphs showing the accuracy of each person in the dataset. The results indicate that the model performs well for most individuals, with some variations in accuracy based on the number of images available for training.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{../imgs/accuracy per person.jpg}
-    \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
+    \includegraphics[width=.95\textwidth]{../imgs/model_2_per_person.jpg}
+    \caption{Accuracy per Person (Class) - Facenet Face Recognizer}
 \end{figure}
 
 \section{Model 3: Resnet Face Recognizer}
@@ -1049,23 +1342,23 @@ Graphs showing the accuracy of each person in the dataset. The results indicate 
             \hline
             \textbf{Metric} & \textbf{Value} \\ 
             \hline
-            Accuracy        & 85\%           \\ 
+            Accuracy        & 91.44\%           \\ 
             \hline
-            Precision       & 80\%           \\ 
+            Precision       & 88.73\%           \\ 
             \hline
-            Recall          & 75\%           \\ 
+            Recall          & 91.48\%           \\ 
             \hline
-            F1 Score        & 77.5\%         \\ 
+            F1 Score        & 89.32\%         \\ 
             \hline
         \end{tabular}
-        \caption{Confusion Matrix of LBPH Face Recognizer}
+        \caption{Confusion Matrix of Resnet Face Recognizer}
         \label{tab:confusion-metrics}
     \end{minipage}
     \hfill
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{../imgs/model_1_confusion_matrix.jpg}
-        \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
+        \includegraphics[width=\textwidth]{../imgs/model_3_cp.jpg}
+        \caption{Accuracy per Person (Class) - Resnet Face Recognizer}
         \label{fig:confusion-matrix}
     \end{minipage}
 \end{figure}
@@ -1074,11 +1367,17 @@ Graphs showing the accuracy of each person in the dataset. The results indicate 
 Graphs showing the accuracy of each person in the dataset. The results indicate that the model performs well for most individuals, with some variations in accuracy based on the number of images available for training.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=.95\textwidth]{../imgs/accuracy per person.jpg}
-    \caption{Accuracy per Person (Class) - LBPH Face Recognizer}
+    \includegraphics[width=.95\textwidth]{../imgs/model_3_per_person.jpg}
+    \caption{Accuracy per Person (Class) - Resnet Face Recognizer}
 \end{figure}
 
 \section{Final Comparison} 
+Resnet Face Recognizer outperformed the other two models in terms of accuracy, precision, recall, and F1 score. The results indicate that Resnet is the most effective model for face recognition tasks in this dataset.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.95\textwidth]{../imgs/final_model_comp.jpg}
+    \caption{Final Model Comparison}
+\end{figure}
 \chapter{Applications}
 
 \section{Educational Institutions}

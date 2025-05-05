@@ -1,0 +1,105 @@
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Problem Statement}{8}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}Need of the Project}{8}{subsection.1.0.2}%
+\contentsline {chapter}{\numberline {2}Literature Survey}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Paper 1}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Positives and Learnings from this Paper}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Identified Research Gaps}{9}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Paper 2}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Positives and Learnings from this Paper}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Identified Research Gaps}{10}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Paper 3}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Positives and Learnings from this Paper}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Identified Research Gaps}{10}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Paper 4}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Positives and Learnings from this Paper}{10}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Identified Research Gaps}{11}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Paper 5}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Positives and Learnings from this Paper}{11}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Identified Research Gaps}{11}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Problem Statement}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Project Scope}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Project Assumptions}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Project Limitations}{12}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Project Objectives}{12}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Project Requirements}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Resources}{13}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Human Resources}{13}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Reusable Software Components}{13}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Requirements}{13}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Software and Hardware Requirements}{13}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Risk Management}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Functional Specifications}{13}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Interfaces}{13}{subsection.4.4.1}%
+\contentsline {subsubsection}{External Interfaces Required}{13}{section*.8}%
+\contentsline {subsubsection}{Internal Interfaces Required}{13}{section*.9}%
+\contentsline {subsubsection}{Communication Interfaces}{13}{section*.10}%
+\contentsline {subsubsection}{Graphical User Interfaces}{13}{section*.11}%
+\contentsline {subsection}{\numberline {4.4.2}Interactions}{13}{subsection.4.4.2}%
+\contentsline {subsubsection}{Sustainability}{13}{section*.12}%
+\contentsline {subsubsection}{Quality Management}{13}{section*.13}%
+\contentsline {subsubsection}{Security}{13}{section*.14}%
+\contentsline {chapter}{\numberline {5}System Analysis Proposed Architecture}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Block Diagram}{14}{section.5.1}%
+\contentsline {section}{\numberline {5.2}System Architecture}{14}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Modules of the Project}{14}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Project Plan}{15}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Implementation}{16}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Methodology}{16}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Advantages}{16}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Disadvantages}{17}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Implementations}{17}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Platform}{17}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Training Data}{17}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}Creation of Dataset}{19}{subsection.7.4.3}%
+\contentsline {subsubsection}{Cropped Faces using openCV-haar-cascades}{19}{section*.15}%
+\contentsline {subsubsection}{Manually Segregated photos for 5 people and labelled them}{21}{section*.16}%
+\contentsline {subsection}{\numberline {7.4.4}Preliminary Results}{24}{subsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.4.5}Accuracy per Persion (Class) - LBPH Face Recognizer}{24}{subsection.7.4.5}%
+\contentsline {subsubsection}{LBPH Face Recognizer code}{24}{section*.17}%
+\contentsline {chapter}{\numberline {8}Performance Evaluation and Testing}{31}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Evaluation Metrics}{31}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Testing Methodology}{31}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Testing and Training Dataset}{31}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Deployment Strategies}{32}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Deployment Environment}{32}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Deployment Steps}{32}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Deployment Challenges}{32}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Security Concerns}{33}{section.9.4}%
+\contentsline {chapter}{\numberline {10}Result and Analysis}{34}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Model 1: LBPH Face Recognizer}{34}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}Confusion Metrics}{34}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Per Person Results}{34}{subsection.10.1.2}%
+\contentsline {section}{\numberline {10.2}Model 2: Facenet Face Recognizer}{36}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Confusion Metrics}{36}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Per Person Results}{36}{subsection.10.2.2}%
+\contentsline {section}{\numberline {10.3}Model 3: Resnet Face Recognizer}{38}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Confusion Metrics}{38}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Per Person Results}{38}{subsection.10.3.2}%
+\contentsline {section}{\numberline {10.4}Final Comparison}{39}{section.10.4}%
+\contentsline {chapter}{\numberline {11}Applications}{40}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Educational Institutions}{40}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Corporate Environments}{40}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Healthcare Facilities}{40}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Government and Public Sector}{40}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Retail and Hospitality}{41}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Event Management}{41}{section.11.6}%
+\contentsline {section}{\numberline {11.7}Smart Cities and IoT Integration}{41}{section.11.7}%
+\contentsline {section}{\numberline {11.8}Research and Development}{41}{section.11.8}%
+\contentsline {chapter}{\numberline {12}Conclusion}{42}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Future Prospects for the Attendance Assistant }{43}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Integration of advanced Deep-Learning Models}{43}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Dataset Expansion and Synthetic Augmentation}{43}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Edge Deployment and Resource Optimization}{43}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Privacy, Security, and Ethical Considerations}{44}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Mutlti-Modal and Context-Aware Fusion:}{44}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Broader Applications and Commercialization}{44}{section.13.6}%
+\contentsline {chapter}{Bibliography}{45}{chapter*.18}%
+\contentsline {chapter}{\numberline {A}Code Snippet for Dataset Creation}{46}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Code Snippet for Dataset Creation}{47}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Code Snippet for face recognition using LBPH}{48}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Code Snippet for face recognition using face\_recognition}{49}{appendix.D}%
+\contentsline {chapter}{\numberline {E}Dataset Samples}{50}{appendix.E}%
+\contentsline {chapter}{\numberline {F}Publication Details}{51}{appendix.F}%
+\contentsline {chapter}{\numberline {G}Base Paper}{52}{appendix.G}%
+\contentsline {chapter}{\numberline {H}Plagiarism Report}{53}{appendix.H}%

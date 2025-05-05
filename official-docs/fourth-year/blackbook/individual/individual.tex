@@ -61,6 +61,12 @@
 %----------------------------------------
 \chapter{Individual Contribution}
 %----------------------------------------
+%========================================
+\chapter{Individual Contribution}
+%========================================
+%========================================
+\chapter{Individual Contribution}
+%========================================
 \section{Problem Statement}
 Design and implement the backend API and face‐recognition engine for the Attendance‐Assistant system.
 
@@ -71,34 +77,111 @@ Design and implement the backend API and face‐recognition engine for the Atten
 \textbf{Panel:} A \\
 
 \section{Module Title}
-Backend \& Face-Recognition Engine
+Backend \& Face‐Recognition Engine
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.95\textwidth]{../imgs/block diagram.png}
-    \caption{Block Diagram highlighting the backend \& face‐recognition module (Krishnaraj Thadesar’s contribution).}
-    \label{fig:block_diagram_krishnaraj}
-\end{figure}
+\section{Project’s Module Scope (Individual Perspective)}
+End‐to‐end implementation of all backend services, face‐encoding storage and lookup, handling concurrent API calls from clients, all hosted locally via Docker.
 
-\section{Project Module Scope}
-End-to-end implementation of backend services, face-encoding storage and lookup, and concurrent API handling.
+\subsection*{Module Interfaces}
+The FastAPI application exposes the following routes (defined in \texttt{main.py} and router files):
 
-\section{Project Modules – Individual Contribution}
-\begin{enumerate}
-  \item \textbf{Hardware \& Software requirements:} PC (i7,16 GB RAM), server (4 vCPU,8 GB RAM); Python 3.9, FastAPI, face\_recognition, Docker, MongoDB.
-  \item \textbf{Module Interfaces:} 
-    \begin{itemize}
-      \item POST \texttt{/api/auth/login}
-      \item POST \texttt{/api/faces/encode}
-      \item POST \texttt{/api/attendance/mark}
-      \item GET  \texttt{/api/reports/daily}
-    \end{itemize}
-  \item \textbf{Module Dependencies:} face\_recognition→dlib, numpy; FastAPI→uvicorn, pydantic; motor (MongoDB driver).
-  \item \textbf{Module Design:} Controller→Service→Model→Persistence layers; singleton model loader; JWT auth.
-  \item \textbf{Module Implementation:} Docker Compose, ~1,200 LOC Python, integrated ResNet-based pipeline.
-  \item \textbf{Testing Strategies:} pytest (>=85\% coverage), mocked CI tests, Postman smoke tests.
-  \item \textbf{Deployment:} Docker Compose (dev), AWS ECR/ECS Fargate (prod), auto-scaling.
-\end{enumerate}
+\begin{itemize}
+  \item \textbf{Add Attendance}  
+    \texttt{POST /api/v1/add\_attendance}  
+    \textit{Request body:}
+    \begin{verbatim}
+{
+  "room_id": "Room ID",
+  "subject_id": "Subject ID",
+  "teacher_id": "Teacher ID",
+  "panel_id": "Panel ID",
+  "start_time": "10:00",
+  "end_time": "11:00"
+}
+    \end{verbatim}
+
+  \item \textbf{Add Image}  
+    \texttt{POST /api/v1/add\_image}  
+    \textit{Request body:}
+    \begin{verbatim}
+{
+  "room_id": "Room ID",
+  "image": "Base64-encoded image"
+}
+    \end{verbatim}
+    \textit{Response:}
+    \begin{verbatim}
+{
+  "status": "success",
+  "message": "Image added successfully"
+}
+    \end{verbatim}
+
+  \item \textbf{Add Specialization}  
+    \texttt{POST /api/v1/add\_specialization}
+
+  \item \textbf{Add School}  
+    \texttt{POST /api/v1/add\_school}
+
+  \item \textbf{Add Panel}  
+    \texttt{POST /api/v1/add\_panel}
+
+  \item \textbf{Add Student}  
+    \texttt{POST /api/v1/add\_student}
+
+  \item \textbf{Add Face Image}  
+    \texttt{POST /api/v1/add\_face\_image}
+
+  \item \textbf{Add Face Encoding}  
+    \texttt{POST /api/v1/add\_face\_encoding}
+
+  \item \textbf{Add Teacher}  
+    \texttt{POST /api/v1/add\_teacher}
+
+  \item \textbf{Add Semester}  
+    \texttt{POST /api/v1/add\_semester}
+
+  \item \textbf{Add Subject}  
+    \texttt{POST /api/v1/add\_subject}
+
+  \item \textbf{Get Students}  
+    \texttt{POST /api/v1/get\_students}
+
+  \item \textbf{Get Teachers}  
+    \texttt{POST /api/v1/get\_teachers}
+\end{itemize}
+
+\subsection*{Module Dependencies}
+\begin{itemize}
+  \item \texttt{face\_recognition} $\rightarrow$ \texttt{dlib}, \texttt{numpy}
+  \item \texttt{FastAPI} $\rightarrow$ \texttt{uvicorn}, \texttt{pydantic}
+  \item MongoDB driver (\texttt{motor})
+\end{itemize}
+
+\subsection*{Module Design}
+Layered architecture: Controller $\rightarrow$ Service $\rightarrow$ Model $\rightarrow$ Persistence; singleton face‐model loader; JWT authentication middleware.
+
+\subsection*{Module Implementation}
+\begin{itemize}
+  \item Containerized services with Docker Compose.
+  \item Approximately 1,200 lines of Python code.
+  \item Integrated face\_recognition pipeline with error handling.
+\end{itemize}
+
+\subsection*{Module Testing Strategies}
+\begin{itemize}
+  \item Unit tests via \texttt{pytest} (coverage >= 85\%).
+  \item Mocked face detection for CI.
+  \item Postman end‐to‐end smoke tests.
+\end{itemize}
+
+\subsection*{Module Deployment}
+\begin{itemize}
+  \item Fully hosted on local Docker Compose setup.
+  \item Single‐command bring‐up of all services (backend, database, model).
+  \item Manual rollback by re‐deploying previous Docker image versions.
+\end{itemize}
+
 \chapter{Individual Contribution}
 
 \section{Problem Statement}
@@ -191,17 +274,15 @@ Flutter Front-End Application
 \end{figure}
 
 \section{Project Module Scope}
-Full-featured Flutter app: login, camera capture, attendance history, offline caching.
+Implement the Flutter-based UI for login, camera capture, attendance display, and offline support.
 
 \section{Project Modules – Individual Contribution}
 \begin{enumerate}
-  \item \textbf{Hardware \& Software requirements:} Android/iOS device or emulator; Flutter 3.x, Dart, Android Studio, Xcode.
-  \item \textbf{Module Interfaces:} Flutter HTTP client→\texttt{POST /api/faces/encode}; Provider state management.
-  \item \textbf{Module Dependencies:} \texttt{camera}, \texttt{image\_cropper}, \texttt{flutter\_secure\_storage}, \texttt{sqflite}.
-  \item \textbf{Module Design:} MVVM pattern; widget tree: Login→CameraView→AttendanceList.
-  \item \textbf{Module Implementation:} ~1\,500 LOC Dart; custom camera overlay; retry logic.
-  \item \textbf{Testing Strategies:} Widget tests; Flutter Driver integration tests.
-  \item \textbf{Deployment:} GH Actions→TestFlight \& Play Store via Fastlane.
+  \item \textbf{UI Design:} Assisted in Figma wireframes and refined user flows.
+  \item \textbf{Flutter Development:} Built screens for login, camera preview, and attendance history.
+  \item \textbf{Camera Integration:} Integrated device camera plugin and handled image capture.
+  \item \textbf{Offline Support:} Added basic local caching to queue captures when offline.
+  \item \textbf{Testing:} Performed manual UI tests on both Android and iOS emulators.
 \end{enumerate}
 
 \end{document}

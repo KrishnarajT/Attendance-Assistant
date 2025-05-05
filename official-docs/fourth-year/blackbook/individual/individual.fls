@@ -180,44 +180,76 @@ OUTPUT individual.out
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
-INPUT ..\imgs\block diagram.png
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
 INPUT C:\Users\pc\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncr8t.vf
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8r.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8c.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8t.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\ts1fnc.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8c.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
-INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncb8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncb8r.tfm
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncr8c.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncmii.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncmii.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncmii.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncsy.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncsy.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncsy.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mex.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mex.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mex.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\fmlfncm.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\fmlfncm.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\tex\latex\fouriernc\fmlfncm.fd
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncmi.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncmi.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fouriernc\fncmi.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-bb.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-bb.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-bb.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8t.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\ncntrsbk\pncri8t.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncri8r.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\vf\public\fouriernc\fncsy.vf
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\ncntrsbk\pncr8r.tfm
 INPUT ..\imgs\block diagram.png
 INPUT ..\imgs\block diagram.png
 INPUT ..\imgs\block diagram.png
@@ -226,6 +258,10 @@ INPUT ..\imgs\block diagram.png
 INPUT ..\imgs\block diagram.png
 INPUT ..\imgs\block diagram.png
 INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT ..\imgs\block diagram.png
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT ..\imgs\block diagram.png
 INPUT ..\imgs\block diagram.png
 INPUT ..\imgs\block diagram.png
@@ -237,6 +273,8 @@ INPUT C:\Users\pc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm10
 INPUT C:\Users\pc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\pc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
 INPUT C:\Users\pc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-ms.pfb
+INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-ms.pfb
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\ncntrsbk\uncb8a.pfb
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\ncntrsbk\uncb8a.pfb
 INPUT C:\Users\pc\AppData\Local\Programs\MiKTeX\fonts\type1\urw\ncntrsbk\uncr8a.pfb

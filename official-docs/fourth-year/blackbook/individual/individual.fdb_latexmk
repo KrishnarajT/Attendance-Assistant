@@ -1,6 +1,15 @@
 # Fdb version 4
-["pdflatex"] 1746477527.34374 "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/individual/individual.tex" "individual.pdf" "individual" 1746477528.02083 0
+["pdflatex"] 1746479870.05377 "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/individual/individual.tex" "individual.pdf" "individual" 1746479871.02733 0
+  "../imgs/Mongo 1.png" 1746478914 71812 e91cdb9b3ad7d8b1aaea66e2725fdf5e ""
+  "../imgs/Mongo 2.png" 1746478914 85739 3bb19874dfb0ccecfbb0dcbda866f153 ""
+  "../imgs/Mongo 3.png" 1746478914 66600 58d95655ed0b39dbbac3601c31702457 ""
   "../imgs/block diagram.png" 1746470916 82050 144da43583b71f12f0df525b41af5fd6 ""
+  "../imgs/final_model_comp.jpg" 1746478914 23490 73760125a731fe1f764fdfac9a12e362 ""
+  "../imgs/frontend.jpg" 1746478758 26356 01248d2afaf32e60e9d280fbfe3ad9f7 ""
+  "../imgs/mongo.jpg" 1746374972 60058 0c9cbc47b5d5f93498669d6f89902243 ""
+  "../imgs/swagger 1.jpg" 1746478915 158165 d935a5ea9b905cbab34b49820e64bd1e ""
+  "../imgs/swagger 2.jpg" 1746478915 83080 dc22aade643498d382428990339b5564 ""
+  "../imgs/swagger 3.jpg" 1746478915 100147 4cdb3d3e0b30466b79f27f0a2e4a66e9 ""
   "C:/Users/pc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1746386256 100067 0a1ed65b362230434f52fc3a251dc234 ""
   "C:/Users/pc/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1715011755 20028 355affe09403d35eeec78ed827c260e7 ""
   "C:/Users/pc/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1746473230 11548 efe5ed112eb5e1a6d91dc59f9581c080 ""
@@ -114,10 +123,10 @@
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/tocbibind/tocbibind.sty" 1286957996 8927 46f54e33fc9cef24f78ab3bc811cb63f ""
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/pc/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/individual/individual.tex" 1746477526 10023 bc61579eb2de854ec679982ba15a55b6 ""
-  "individual.aux" 1746477527 4688 a9d45a942e73135dff811ceaa5bc94d1 "pdflatex"
-  "individual.out" 1746477527 4158 b36b51bdc453a779e405b50dd0e4ce0c "pdflatex"
-  "individual.tex" 1746477526 10023 bc61579eb2de854ec679982ba15a55b6 ""
+  "g:/4th-Year/Semester 2/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/individual/individual.tex" 1746479868 11220 b9258b432406417876ad031ad7934698 ""
+  "individual.aux" 1746479870 6094 f1999f4af3a09cf04d535d8c59bdeb43 "pdflatex"
+  "individual.out" 1746479870 3834 e1aff306653721dfa430a77099301306 "pdflatex"
+  "individual.tex" 1746479868 11220 b9258b432406417876ad031ad7934698 ""
   (generated)
   "individual.aux"
   "individual.log"

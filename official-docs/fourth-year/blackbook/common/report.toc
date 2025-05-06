@@ -33,8 +33,8 @@
 \contentsline {subsubsection}{Internal Interfaces Required}{18}{section*.9}%
 \contentsline {subsubsection}{Communication Interfaces}{19}{section*.10}%
 \contentsline {subsubsection}{Graphical User Interfaces}{20}{section*.11}%
-\contentsline {subsection}{\numberline {4.3.2}Interactions}{22}{subsection.4.3.2}%
-\contentsline {subsubsection}{Sustainability}{22}{section*.12}%
+\contentsline {subsection}{\numberline {4.3.2}Interactions}{21}{subsection.4.3.2}%
+\contentsline {subsubsection}{Sustainability}{21}{section*.12}%
 \contentsline {subsubsection}{Quality Management}{22}{section*.13}%
 \contentsline {subsubsection}{Security}{22}{section*.14}%
 \contentsline {chapter}{\numberline {5}System Analysis Proposed Architecture}{23}{chapter.5}%

@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746482987.98833 "p:/classes/university/fourth_year/Second Semester/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/common/report.tex" "report.pdf" "report" 1746482990.18065 0
+["pdflatex"] 1746490889.71812 "p:/classes/university/fourth_year/Second Semester/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/common/report.tex" "report.pdf" "report" 1746490891.93812 0
   "../imgs/Copped images 2.png" 1746463398 1549010 c3d81ff59836bd3091b24bba975f08c1 ""
   "../imgs/Copped images 3.png" 1746463398 1468960 5421e4c12d058f9d73a330784b6c431a ""
   "../imgs/Cropped images.png" 1746463398 1469963 40676dd27d88bb1bd78d08701f73bb48 ""
@@ -10,7 +10,7 @@
   "../imgs/abhijeet (5).jpg" 1741777610 11346 c765118a0153c39ffe45042c478a8e35 ""
   "../imgs/abhijeet.png" 1746463398 1207635 4a02c6d669091a126cfdcf5e07a42ec3 ""
   "../imgs/activity 1.jpg" 1746480792 32927 6d3365b3cd3ef2b9e34e091fb74a5079 ""
-  "../imgs/activity 2.jpg" 1746480795 32927 6d3365b3cd3ef2b9e34e091fb74a5079 ""
+  "../imgs/activity 2.jpg" 1746490855 42687 c6a53da1a50b495e93d5810742debe3b ""
   "../imgs/app 2.jpg" 1746375067 26356 01248d2afaf32e60e9d280fbfe3ad9f7 ""
   "../imgs/app 3.jpg" 1746481511 76080 b64b12e1582b46c38caaf069fa7130f9 ""
   "../imgs/avishkar (1).jpg" 1741777698 15784 19a1384546b81a2a676f602b8789ef79 ""
@@ -190,13 +190,13 @@
   "C:/Users/Krishnaraj/AppData/Local/Programs/MiKTeX/tex/latex/upquote/upquote.sty" 1335534756 1088 517e01cde97c1c0baf72e69d43aa5a2e ""
   "C:/Users/Krishnaraj/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Krishnaraj/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "p:/classes/university/fourth_year/Second Semester/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/common/report.tex" 1746482987 86431 ef99c18b592d689a74e07cc6ceda0ee4 ""
-  "report.aux" 1746482989 28668 f2ede4ca05f95beb864b3387a6e18b55 "pdflatex"
-  "report.lof" 1746482989 5650 284474135e925acda2a2fb6e1606f821 "pdflatex"
-  "report.lot" 1746482989 700 e23ec9851bfa90e888e513419e82f0ce "pdflatex"
-  "report.out" 1746482989 22428 719497b0c8d671e5f0dc21c6adfda9cf "pdflatex"
-  "report.tex" 1746482987 86431 ef99c18b592d689a74e07cc6ceda0ee4 ""
-  "report.toc" 1746482989 11715 d39b39a216dec1520c55e6dce0c2ba79 "pdflatex"
+  "p:/classes/university/fourth_year/Second Semester/Capstone/Attendance-Assistant/official-docs/fourth-year/blackbook/common/report.tex" 1746490886 86431 029aff33bc110b72910e90748a4d6adc ""
+  "report.aux" 1746490891 28668 100b3883d7e994f15c6791364f15788c "pdflatex"
+  "report.lof" 1746490891 5650 284474135e925acda2a2fb6e1606f821 "pdflatex"
+  "report.lot" 1746490891 700 e23ec9851bfa90e888e513419e82f0ce "pdflatex"
+  "report.out" 1746490891 22428 719497b0c8d671e5f0dc21c6adfda9cf "pdflatex"
+  "report.tex" 1746490886 86431 029aff33bc110b72910e90748a4d6adc ""
+  "report.toc" 1746490891 11715 7c39b5cdfcd299231443410d2269093e "pdflatex"
   (generated)
   "report.aux"
   "report.lof"

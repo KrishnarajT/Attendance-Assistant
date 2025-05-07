@@ -1,0 +1,100 @@
+Delivered-To: kpt.krishnaraj@gmail.com
+Received: by 2002:a05:6504:5301:b0:293:5ec:36e0 with SMTP id x1csp2820552ltw;
+ Mon, 5 May 2025 16:08:36 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IF0I3SZBviXUsZbvjm3AbLVWffbn1oWI5hoNL9sKPS8/58tfmGJtUPDQSS0tkJr1AHzGTW9
+X-Received: by 2002:a05:6402:354e:b0:5f6:26d3:c6c3 with SMTP id
+ 4fb4d7f45d1cf-5fab05e09d5mr7380374a12.32.1746486516257; Mon, 05 May 2025
+ 16:08:36 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1746486516; cv=none; d=google.com;
+ s=arc-20240605;
+ b=DCvoHsGNlmEqmV5fjAxHrYTjHksKdV5pQFoABJM9CyTBCuz/RtLXUUNqmNxt2B+FPa
+ jHJY32/3q3jAoxwIu5Skk7pszf5M3icsXGlIwfXdRZrFrvvuJyyt0E6hw/otCsCrgJmr
+ yhjUQQuktytjbwu54MGAVNA9JaOnLKRg3NEgu8mOnJMr7Rsrb0yR53vpwXsZKn3gy/5L
+ DrZwBLpyyuu1g+V6tqDtMcw8F5i/PQTgTZlx9cDa8Zgy1DEQRvMXeo8s94GGoCdkoU4F
+ O6ERdU7u4r34iwzfsZ1Cpf/97EmQXyiwUDUwY4vd8Mb/fjYTSmGJgsKucxlDuya0Kaw/ +d3w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20240605;
+ h=content-transfer-encoding:mime-version:message-id:subject:from:to :date;
+ bh=VvsKI7Xc4ChwbYuxqA5gp3jEzfnZqoF4NGITqj/ReFA=;
+ fh=PyD68WNEmVg9Ca7Fv2xZrx3sbajWAZHtFL4fsn7UL/w=;
+ b=FzTXqXigH24TwKPBDU+ZomqV8Nd+1rdoci4GXHmHh7llDvpxRf2pMZkHwupP/CIT0m
+ KrKu/399obXpy9UTlSFQDZ+6p7W32VvlntQdEMh1zyguaPGgjy+FS5kH9ws/2muYVHJO
+ W4qM4ByzyvxvlBPaqYHdkhEPw+74cAfBs8Sqvp0UCDzHnGvovkWDOhynhxJTHdCvfwoH
+ o0zzSxmT9bmol1V31/2bITo0C4ipLzySAbXMbQvKl6usBCRM4Hd3dnVWsmvIs1Twz6IF
+ 6Zow9TTAUxw2oQWMe1lZ0XBlvb5CXu17sCjiuLXMS99XJ79cfFbsqXMjF/jTczjo7ZHt +Vvw==;
+ dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; spf=pass (google.com: domain
+ of editor@ijsat.org designates 188.121.53.172 as permitted sender)
+ smtp.mailfrom=editor@ijsat.org
+Return-Path: <editor@ijsat.org>
+Received: from sxb1plsmtpa01-16.prod.sxb1.secureserver.net
+ (sxb1plsmtpa01-16.prod.sxb1.secureserver.net. [188.121.53.172]) by
+ mx.google.com with ESMTPS id
+ 4fb4d7f45d1cf-5fa77b89247si5871942a12.412.2025.05.05.16.08.36 for
+ <kpt.krishnaraj@gmail.com> (version=TLS1_2
+ cipher=ECDHE-ECDSA-CHACHA20-POLY1305 bits=256/256); Mon, 05 May 2025 16:08:36
+ -0700 (PDT)
+Received-SPF: pass (google.com: domain of editor@ijsat.org designates
+ 188.121.53.172 as permitted sender) client-ip=188.121.53.172;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of
+ editor@ijsat.org designates 188.121.53.172 as permitted sender)
+ smtp.mailfrom=editor@ijsat.org
+Received: from www.ijsat.org ([92.205.128.82]) by :SMTPAUTH: with ESMTPSA id
+ C4vEuAIiXZE3IC4vFu152w; Mon, 05 May 2025 16:08:30 -0700
+X-CMAE-Analysis: v=2.4 cv=RqfFLDmK c=1 sm=1 tr=0 ts=681944ee
+ a=4dF4AGa6CZj7bzA/j77/QQ==:117 a=4dF4AGa6CZj7bzA/j77/QQ==:17
+ a=8nJEP1OIZ-IA:10 a=KeGPpgScAAAA:8 a=UqEiqw90AAAA:20 a=Z7lnCbStoCpINnZHYRUA:9
+ a=rGNLETUD4uaSh-ns:21 a=lqcHg5cX4UMA:10 a=3ZKOabzyN94A:10 a=wPNLvfGTeEIA:10
+ a=EknP_SUZlDgA:10 a=-FEs8UIgK8oA:10 a=s30jsia3JS4NN1C9tjzg:22
+X-SECURESERVER-ACCT: editor@ijsat.org
+Date: Tue, 6 May 2025 04:38:28 +0530
+To: Krishnaraj Thadesar <kpt.krishnaraj@gmail.com>
+From: IJSAT <editor@ijsat.org>
+Subject: Research paper submission acknowledgment
+Message-ID: <e22162cc3576cdf1288970e55ae8d7b3@www.ijsat.org>
+X-Mailer: PHPMailer 5.2.13 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-CMAE-Envelope: MS4xfBswEExLn6SE7CdiX3w5/aDSfsfbnMcD+p4NiFEMWKFLz3sf6rd+tQjAySONDKU+RoH+GImBn5+R4LeCdorz/OoYqUF+XfWKI3HsSin2LhavxrfjrP8I
+ 5SITQc10OZqiHFHJNNdtx/vxDGtTLHQvLTbCy4hNWFoMVmbk9+TJemSIXXdgcfG33BSYsHF6RhSZEA==
+
+<div>
+	<p>Dear Krishnaraj Thadesar,</p>
+	<p>Thank you for submitting your research paper.</p>
+	<p>It will be reviewed by one of our corresponding reviewer and then we will inform you about the status of the review.</p>
+	<p>You can also <a href="https://www.ijsat.org/track-status.php?id=4719">track status</a> of the submitted research paper using the following paper id and pass code:</p>
+	<p>Submitted paper details:</p>
+	
+	<table border="1" cellpadding="8" style="border-collapse:collapse">
+		<tr><td><b>Research Paper Id</b></td><td>4719</td></tr>
+		<tr><td><b>Pass Code</b></td><td>MjgzODA0</td></tr>
+		<tr><td><b>Research Paper Title</b></td><td>Machine Learning-Powered Facial Recognition-Based Attendance System</td></tr>
+		<tr><td><b>Publication Fee</b></td><td>₹ 1500 + 18% GST<br /><small>Fee Calculation Equation:<br />₹ 1500 for 1 to 4 Researchers/Authors in a paper<br />₹ 300 per each additional Researchers/Authors in the paper</small></td></tr>
+	</table>
+	<hr />
+<p><big><b>Steps</b></big></p>
+<p>&#9745; Submit research paper</p>
+<p>&#8658; Review research paper</p>
+<p>&#9744; Pay publication fee</p>
+<p>&#9744;   Submit documents (Undertaking Form, Copyright Permission Form, Payment Receipt)</p>
+<p>&#9744; Research work/paper published</p>
+<p>&nbsp;</p>
+
+<p><big><b>Other Services</b></big></p>
+<p>&#9744; Get hard copies of certificate(s) of publication and your research paper</p>
+
+</div>
+<hr />
+<p style="font-size:small;font-weight:bold;font-style:italic">(Please mark this email as Not Spam, if it is delivered to the Spam/Junk folder of your mailbox, to deliver future important emails to the inbox.)</p>
+<hr />
+<img src="https://www.ijsat.org/images/logo-h100px.png" style="float:left;margin-right:10px">
+<div><b>IJSAT</b> - <a href="https://www.ijsat.org" target="_blank">https://www.ijsat.org</a></div>
+<div>International Journal on Science and Technology</div>
+<div><b>ISSN:</b> 2229-7677</div>
+<div><b>Publisher:</b> International Research Publication and Journals</div>
+<div><b>Phone:</b> <a href="tel:+919687182185">+91-9687-182-185</a></div>
+<div><b>Call Time:</b> 10 am to 7 pm <abbr title="Indian Standard Time">IST</abbr> (Monday to Saturday)</div>
+<div>Also available on
+<a href="https://wa.me/919687182185" target="_blank" style="color:green">WhatsApp</a>.</div>
+
